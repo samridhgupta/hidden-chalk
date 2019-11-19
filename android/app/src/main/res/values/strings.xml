@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HiddenChalk</string>
+    <string name="bugsnag_api_key">60a0be25abc2409e0964222cacd7e5e0</string>
 </resources>
