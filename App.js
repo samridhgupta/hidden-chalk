@@ -24,6 +24,8 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Icon from 'react-native-vector-icons/FontAwesome';
+const myIcon = <Icon name="rocket" size={30} color="#900" />;
 
 const App: () => React$Node = () => {
   return (
@@ -65,6 +67,7 @@ const App: () => React$Node = () => {
                 Read the docs to discover what to do next:
               </Text>
             </View>
+            {myIcon}
             <LearnMoreLinks />
           </View>
         </ScrollView>
