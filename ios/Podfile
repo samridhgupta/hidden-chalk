@@ -44,6 +44,8 @@ target 'HiddenChalk' do
 
   pod 'RNFS', :path => '../node_modules/react-native-fs'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing

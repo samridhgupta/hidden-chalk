@@ -30,6 +30,7 @@ const myIcon = <Icon name="rocket" size={30} color="#900" />;
 import Video from 'react-native-video';
 var Sound = require('react-native-sound');
 import Snackbar from 'react-native-snackbar';
+import AsyncStorage from '@react-native-community/async-storage';
 
 var RNFS = require('react-native-fs');
 
@@ -91,40 +92,49 @@ const App: () => React$Node = () => {
             </View>
             <TouchableOpacity
               onPress={() => {
-                RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
-                  .then(result => {
-                    console.log('GOT RESULT', result);
-
-                    // stat the first file
-                    return Promise.all([
-                      RNFS.stat(result[0].path),
-                      result[0].path,
-                    ]);
-                  })
-                  .then(statResult => {
-                    if (statResult[0].isFile()) {
-                      // if we have a file, read it
-                      return RNFS.readFile(statResult[1], 'utf8');
-                    }
-
-                    return 'no file';
-                  })
-                  .then(contents => {
-                    // log the file contents
-                    console.log(contents);
+                AsyncStorage.setItem('@storage_Key', 'stored valueaksbdk')
+                  .then(AsyncStorage.getItem('@storage_Key'))
+                  .then(() => {
                     Snackbar.show({
-                      title: 'Hello world',
-                      duration: Snackbar.LENGTH_SHORT,
-                    });
-                  })
-
-                  .catch(err => {
-                    console.log(err.message, err.code);
-                    Snackbar.show({
-                      title: 'error',
+                      title: value,
                       duration: Snackbar.LENGTH_SHORT,
                     });
                   });
+
+                // RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
+                //   .then(result => {
+                //     console.log('GOT RESULT', result);
+
+                //     // stat the first file
+                //     return Promise.all([
+                //       RNFS.stat(result[0].path),
+                //       result[0].path,
+                //     ]);
+                //   })
+                //   .then(statResult => {
+                //     if (statResult[0].isFile()) {
+                //       // if we have a file, read it
+                //       return RNFS.readFile(statResult[1], 'utf8');
+                //     }
+
+                //     return 'no file';
+                //   })
+                //   .then(contents => {
+                //     // log the file contents
+                //     console.log(contents);
+                //     Snackbar.show({
+                //       title: 'Hello world',
+                //       duration: Snackbar.LENGTH_SHORT,
+                //     });
+                //   })
+
+                //   .catch(err => {
+                //     console.log(err.message, err.code);
+                //     Snackbar.show({
+                //       title: 'error',
+                //       duration: Snackbar.LENGTH_SHORT,
+                //     });
+                //   });
               }}>
               {myIcon}
             </TouchableOpacity>
