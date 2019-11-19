@@ -26,6 +26,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
+import Video from 'react-native-video';
 
 const App: () => React$Node = () => {
   return (
@@ -41,6 +42,15 @@ const App: () => React$Node = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+          <Video
+            source={{uri: 'http://incident.net/v8/files/mp4/13.mp4'}} // Can be a URL or a local file.
+            // ref={ref => {
+            //   this.player = ref;
+            // }} // Store reference
+            // onBuffer={this.onBuffer} // Callback when remote video is buffering
+            // onError={this.videoError} // Callback when video cannot be loaded
+            style={styles.backgroundVideo}
+          />
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -112,6 +122,13 @@ const styles = StyleSheet.create({
     padding: 4,
     paddingRight: 12,
     textAlign: 'right',
+  },
+  backgroundVideo: {
+    position: 'absolute',
+    top: 10,
+    left: 0,
+    bottom: 0,
+    right: 0,
   },
 });
 
