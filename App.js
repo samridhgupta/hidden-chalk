@@ -14,6 +14,7 @@ import {
   View,
   Text,
   StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 import 'react-native-gesture-handler';
 
@@ -28,6 +29,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
 import Video from 'react-native-video';
 var Sound = require('react-native-sound');
+import Snackbar from 'react-native-snackbar';
 
 // Enable playback in silence mode
 Sound.setCategory('Playback');
@@ -46,7 +48,7 @@ const App: () => React$Node = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <Video
+          {/* <Video
             source={{uri: 'http://incident.net/v8/files/mp4/13.mp4'}} // Can be a URL or a local file.
             // ref={ref => {
             //   this.player = ref;
@@ -54,7 +56,8 @@ const App: () => React$Node = () => {
             // onBuffer={this.onBuffer} // Callback when remote video is buffering
             // onError={this.videoError} // Callback when video cannot be loaded
             style={styles.backgroundVideo}
-          />
+          /> */}
+
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -63,25 +66,35 @@ const App: () => React$Node = () => {
                 screen and then come back to see your edits.
               </Text>
             </View>
-            <View style={styles.sectionContainer}>
+            <TouchableOpacity
+              style={styles.sectionContainer}
+              onPress={() => {
+                Snackbar.show({
+                  title: 'Hello world',
+                  duration: Snackbar.LENGTH_SHORT,
+                });
+              }}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>
               <Text style={styles.sectionDescription}>
                 <ReloadInstructions />
               </Text>
-            </View>
-            <View style={styles.sectionContainer}>
-              <Text style={styles.sectionTitle}>Debujkasdhkasdkg</Text>
-              <Text style={styles.sectionDescription}>
-                <DebugInstructions />
-              </Text>
-            </View>
+            </TouchableOpacity>
+
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Learn More</Text>
               <Text style={styles.sectionDescription}>
                 Read the docs to discover what to do next:
               </Text>
             </View>
-            {myIcon}
+            <TouchableOpacity
+              onPress={() => {
+                Snackbar.show({
+                  title: 'Hello world',
+                  duration: Snackbar.LENGTH_SHORT,
+                });
+              }}>
+              {myIcon}
+            </TouchableOpacity>
             <LearnMoreLinks />
           </View>
         </ScrollView>
@@ -104,6 +117,7 @@ const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
+    backgroundColor: 'red',
   },
   sectionTitle: {
     fontSize: 24,
