@@ -21,6 +21,8 @@ import 'react-native-gesture-handler';
 import NetInfo from '@react-native-community/netinfo';
 import SplashScreen from 'react-native-splash-screen';
 
+import {WebView} from 'react-native-webview';
+
 import {
   Header,
   LearnMoreLinks,
@@ -56,11 +58,16 @@ class App extends Component {
             contentInsetAdjustmentBehavior="automatic"
             style={styles.scrollView}>
             <Header />
+
             {global.HermesInternal == null ? null : (
               <View style={styles.engine}>
                 <Text style={styles.footer}>Engine: Hermes</Text>
               </View>
             )}
+            <WebView
+              source={{uri: 'https://infinite.red'}}
+              style={{marginTop: 20, height: 200, height: 200}}
+            />
             {/* <Video
             source={{uri: 'http://incident.net/v8/files/mp4/13.mp4'}} // Can be a URL or a local file.
             // ref={ref => {
