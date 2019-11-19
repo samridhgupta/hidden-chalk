@@ -17,6 +17,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 import 'react-native-gesture-handler';
+import NetInfo from '@react-native-community/netinfo';
 
 import {
   Header,
@@ -92,14 +93,22 @@ const App: () => React$Node = () => {
             </View>
             <TouchableOpacity
               onPress={() => {
-                AsyncStorage.setItem('@storage_Key', 'stored valueaksbdk')
-                  .then(AsyncStorage.getItem('@storage_Key'))
-                  .then(() => {
-                    Snackbar.show({
-                      title: value,
-                      duration: Snackbar.LENGTH_SHORT,
-                    });
+                NetInfo.fetch().then(state => {
+                  Snackbar.show({
+                    title: state.type,
+                    duration: Snackbar.LENGTH_SHORT,
                   });
+                  console.log('Connection type', state.type);
+                  console.log('Is connected?', state.isConnected);
+                });
+                // AsyncStorage.setItem('@storage_Key', 'stored valueaksbdk')
+                //   .then(AsyncStorage.getItem('@storage_Key'))
+                //   .then(() => {
+                //     Snackbar.show({
+                //       title: value,
+                //       duration: Snackbar.LENGTH_SHORT,
+                //     });
+                //   });
 
                 // RNFS.readDir(RNFS.DocumentDirectoryPath) // On Android, use "RNFS.DocumentDirectoryPath" (MainBundlePath is not defined)
                 //   .then(result => {
