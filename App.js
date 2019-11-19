@@ -27,6 +27,10 @@ import {
 import Icon from 'react-native-vector-icons/FontAwesome';
 const myIcon = <Icon name="rocket" size={30} color="#900" />;
 import Video from 'react-native-video';
+var Sound = require('react-native-sound');
+
+// Enable playback in silence mode
+Sound.setCategory('Playback');
 
 const App: () => React$Node = () => {
   return (
