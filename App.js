@@ -22,6 +22,7 @@ import NetInfo from '@react-native-community/netinfo';
 import SplashScreen from 'react-native-splash-screen';
 
 import {WebView} from 'react-native-webview';
+import RNFetchBlob from 'rn-fetch-blob';
 
 import {
   Header,
@@ -39,7 +40,6 @@ import AsyncStorage from '@react-native-community/async-storage';
 
 var RNFS = require('react-native-fs');
 
-console.log(' heyyy');
 // Enable playback in silence mode
 Sound.setCategory('Playback');
 
@@ -48,6 +48,28 @@ class App extends Component {
     // do stuff while splash screen is shown
     // After having done stuff (such as async tasks) hide the splash screen
     SplashScreen.hide();
+
+    RNFetchBlob.fetch('GET', 'http://incident.net/v8/files/mp4/13.mp4', {
+      // more headers  ..
+    })
+      .then(res => {
+        console.log('Heeloasdjnkajsfbkadsnkjbkjdbjk');
+        let status = res.info().status;
+
+        if (status == 200) {
+          // the conversion is done in native code
+          let base64Str = res.base64();
+          // the following conversions are done in js, it's SYNC
+          let text = res.text();
+          let json = res.json();
+        } else {
+          // handle other status codes
+        }
+      })
+      // Something went wrong:
+      .catch((errorMessage, statusCode) => {
+        // error handling
+      });
   }
   render() {
     return (
