@@ -37,6 +37,7 @@ import Video from 'react-native-video';
 var Sound = require('react-native-sound');
 import Snackbar from 'react-native-snackbar';
 import AsyncStorage from '@react-native-community/async-storage';
+const Realm = require('realm');
 
 var RNFS = require('react-native-fs');
 
@@ -44,10 +45,22 @@ var RNFS = require('react-native-fs');
 Sound.setCategory('Playback');
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {realm: null};
+  }
   componentDidMount() {
     // do stuff while splash screen is shown
     // After having done stuff (such as async tasks) hide the splash screen
     SplashScreen.hide();
+    Realm.open({
+      schema: [{name: 'Dog', properties: {name: 'string'}}],
+    }).then(realm => {
+      realm.write(() => {
+        realm.create('Dog', {name: 'Rex'});
+      });
+      this.setState({realm});
+    });
 
     RNFetchBlob.fetch('GET', 'http://incident.net/v8/files/mp4/13.mp4', {
       // more headers  ..
@@ -72,6 +85,10 @@ class App extends Component {
       });
   }
   render() {
+    const info = this.state.realm
+      ? 'Number of dogs in this Realm: ' +
+        this.state.realm.objects('Dog').length
+      : 'Loading...';
     return (
       <>
         <StatusBar barStyle="dark-content" />
@@ -90,6 +107,10 @@ class App extends Component {
               source={{uri: 'https://infinite.red'}}
               style={{marginTop: 20, height: 200, height: 200}}
             />
+
+            {/* <View style={styles.container}> */}
+            <Text style={{width: '100%', height: 200}}>{info}</Text>
+            {/* </View> */}
             {/* <Video
             source={{uri: 'http://incident.net/v8/files/mp4/13.mp4'}} // Can be a URL or a local file.
             // ref={ref => {

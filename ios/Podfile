@@ -54,6 +54,8 @@ target 'HiddenChalk' do
 
   pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
 
+  pod 'RealmJS', :path => '../node_modules/realm'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing
