@@ -58,6 +58,8 @@ target 'HiddenChalk' do
 
   pod 'P41Sketch', :path => '../node_modules/react-native-sketch-view'
 
+  pod 'RNAwsSdk', :path => '../node_modules/react-native-aws-cognito'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing

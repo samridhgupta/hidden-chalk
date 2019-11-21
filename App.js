@@ -86,7 +86,7 @@ class App extends Component {
       });
   }
   render() {
-    return <HandNote />;
+    // return <HandNote />;
 
     const info = this.state.realm
       ? 'Number of dogs in this Realm: ' +

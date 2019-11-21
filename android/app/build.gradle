@@ -133,6 +133,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
     splits {
         abi {
@@ -179,6 +180,8 @@ android {
 }
 
 dependencies {
+    implementation "commons-logging:commons-logging-api:1.1"
+    implementation project(':react-native-aws-cognito')
     implementation project(':react-native-sketch-view')
     implementation project(':realm')
     implementation project(':rn-fetch-blob')
