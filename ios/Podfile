@@ -60,6 +60,8 @@ target 'HiddenChalk' do
 
   pod 'RNAwsSdk', :path => '../node_modules/react-native-aws-cognito'
 
+  pod 'RNAwsS3', :path => '../node_modules/react-native-aws-s3'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing

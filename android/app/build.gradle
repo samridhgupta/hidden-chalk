@@ -180,6 +180,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-aws-s3')
     implementation "commons-logging:commons-logging-api:1.1"
     implementation project(':react-native-aws-cognito')
     implementation project(':react-native-sketch-view')
