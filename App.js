@@ -38,6 +38,7 @@ var Sound = require('react-native-sound');
 import Snackbar from 'react-native-snackbar';
 import AsyncStorage from '@react-native-community/async-storage';
 const Realm = require('realm');
+import HandNote from './src/handNote';
 
 var RNFS = require('react-native-fs');
 
@@ -85,6 +86,8 @@ class App extends Component {
       });
   }
   render() {
+    return <HandNote />;
+
     const info = this.state.realm
       ? 'Number of dogs in this Realm: ' +
         this.state.realm.objects('Dog').length

@@ -179,6 +179,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-sketch-view')
     implementation project(':realm')
     implementation project(':rn-fetch-blob')
     implementation project(':react-native-webview')

@@ -56,6 +56,8 @@ target 'HiddenChalk' do
 
   pod 'RealmJS', :path => '../node_modules/realm'
 
+  pod 'P41Sketch', :path => '../node_modules/react-native-sketch-view'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing

@@ -5982,6 +5982,12 @@ react-native-simple-radio-button@2.5.0-alpha.1:
   resolved "https://registry.yarnpkg.com/react-native-simple-radio-button/-/react-native-simple-radio-button-2.5.0-alpha.1.tgz#59d1d6a3b2db4eafc36ab675348f4e6bb89303de"
   integrity sha1-WdHWo7LbTq/DarZ1NI9Oa7iTA94=
 
+"react-native-sketch-view@https://github.com/samridhgupta/react-native-sketch-view.git":
+  version "1.0.1"
+  resolved "https://github.com/samridhgupta/react-native-sketch-view.git#ab727bc3b14029f3d9ea09bcd907eea9bcb384e5"
+  dependencies:
+    prop-types "^15.7.2"
+
 react-native-slider@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-native-slider/-/react-native-slider-0.11.0.tgz#b68a0bc43c8422b24cd57947cc5ac2bcdb58fadc"
