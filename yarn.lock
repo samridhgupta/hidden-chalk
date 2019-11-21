@@ -5876,9 +5876,13 @@ react-native-autoheight-webview@^1.3.1:
   dependencies:
     prop-types "^15.7.2"
 
-"react-native-aws-cognito@https://github.com/Particle41/react-native-aws-cognito":
+"react-native-aws-cognito@https://github.com/samridhgupta/react-native-aws-cognito.git":
   version "1.0.8"
-  resolved "https://github.com/Particle41/react-native-aws-cognito#fb4a33beba716c60aa073d164b57489f61d66719"
+  resolved "https://github.com/samridhgupta/react-native-aws-cognito.git#07f7874eedbd414dc54dc0015442b8177003f682"
+
+"react-native-aws-s3@https://github.com/samridhgupta/react-native-aws-s3.git":
+  version "1.0.5"
+  resolved "https://github.com/samridhgupta/react-native-aws-s3.git#28bc99781b81a036ac5917100fd1db56589e4f1a"
 
 react-native-drawer@2.5.1, react-native-drawer@^2.5.1:
   version "2.5.1"
