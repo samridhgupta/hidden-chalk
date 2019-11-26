@@ -1,0 +1,2225 @@
+{
+     "0": {
+        "id": "0",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "Linear Equations in Two Variables and Function Notation.",
+            "uri": "http://www.dropbox.com/s/iw6p2abth7f3jks/chapter%203%20-%20page%203-4.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1",
+        "number": 1
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "Graphing Points",
+            "uri": "http://www.dropbox.com/s/z6gwebx1r3u2afh/chapter%203%20-%20page%205.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "0",
+        "next": "2",
+        "number": 2
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 13,
+        "type": "theory",
+        "content": {
+            "title": "Ordered Pair",
+            "body": "An <b>ordered pair</b> is a pair of real numbers $$a$$, and $$b$$ inside a set of parentheses and separated by a comma, i.e., <b>(a, b)</b>. Some examples of ordered pairs are <b>(-3, 2)</b>, <b>(4, 7)</b>, and <b>(5, 0).</b> <br/> Note: <br/>- The first number in an ordered pair is always called the <b>x - coordinate.</b> <br/>- The second number in an ordered pair is always called the <b>y - coordinate</b>."
+        },
+        "prev": "1",
+        "next": "3",
+        "number": 3
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 13,
+        "type": "theory",
+        "content": {
+            "title": "Graphing Paper",
+            "body": "To practice and complete problems for this chapter we will need graphing paper. For free printable graphing paper click on Free Graphing Paper and choose the 'One page with four $$7x7$$ axes only templates', option."
+        },
+        "prev": "2",
+        "next": "4",
+        "number": 4
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 13,
+        "type": "theory",
+        "content": {
+            "title": "The Cartesian Coordinate Plane",
+            "body": "To practice and complete problems for this chapter we will need graphing paper. For free printable graphing paper click on Free Graphing Paper and choose the 'One page with four $$7x7$$ axes only templates', option."
+        },
+        "prev": "3",
+        "next": "5",
+        "number": 5
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "The Cartesian Coordinate Plane",
+            "uri": "http://www.dropbox.com/s/670ry9wlp7hqcrp/chapter%203%20-%20page%207.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "4",
+        "next": "6",
+        "number": 6
+    },
+    "6": {
+        "id": "6",
+        "sectionId": 13,
+        "type": "theory",
+        "content": {
+            "title": "Graphing Ordered Pairs",
+            "body": "To graph an ordered pair <b>(a, b)</b>, in the cartesian coordinate plane we first start at the origin and move $$a$$ units to the right if $$a$$ is positive or $$a$$ units to the left if $$a$$ is negative on the <b>x - axis</b>, then move $$b$$ units up if $$b$$ is positive or $$b$$ units down if $$b$$ is negative on the <b>y - axis</b>, then plot a point at the spot where we end up."
+        },
+        "prev": "5",
+        "next": "7",
+        "number": 7
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "Graphing Ordered Pairs",
+            "uri": "http://www.dropbox.com/s/ahnt2e49ylva3fk/chapter%203%20-%20page%208-10.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "6",
+        "next": "8",
+        "number": 8
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 13,
+        "type": "example",
+        "content": {
+            "title": "Example ",
+            "example": "Using graph paper, create a coordinate plane as explained earlier in the chapter and graph the ordered pairs. <br/>a) (2,3) <br/><br/>b) (4,3) <br/><br/>c) (-3,5) <br/><br/>d) (-1,-2) <br/><br/>e) (2,0) <br/><br/>f) (0,-5)",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/agkijo7gz9d5no9/chapter%203%20-%20page%2011-14.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "7",
+        "next": "9",
+        "number": 9
+    },
+    "9": {
+        "id": "9",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 1",
+            "uri": "https://youtu.be/5ctsUsvIp8w",
+            "videoType": "youtube"
+        },
+        "prev": "8",
+        "next": "10",
+        "number": 10
+    },
+    "10": {
+        "id": "10",
+        "sectionId": 13,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 2",
+            "uri": "https://youtu.be/nxUPNCq2DUs",
+            "videoType": "youtube"
+        },
+        "prev": "9",
+        "next": "11",
+        "number": 11
+    },
+    "11": {
+        "id": "11",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 1 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 16)",
+            "options": [{
+                "id": 0,
+                "value": "$$(3,0)$$, $$(1,2)$$, $$(2,2)$$, $$(2,5)$$"
+            }, {
+                "id": 1,
+                "value": "$$(0,3)$$, $$(-2,1)$$, $$(2,1)$$, $$(-2,-5)$$"
+            }, {
+                "id": 2,
+                "value": "$$(3,0)$$, $$(1,-2)$$, $$(1,2)$$, $$(5,-2)$$"
+            }, {
+                "id": 3,
+                "value": "$$(0,3)$$, $$(1,-2)$$, $$(2,2)$$, $$(-2,5)$$"
+            }],
+            "correctOption": {
+                "id": 3
+            }
+        },
+        "prev": "10",
+        "next": "12",
+        "number": 12
+    },
+    "12": {
+        "id": "12",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 2 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 16)",
+            "options": [{
+                "id": 0,
+                "value": "$$(-4,0)$$, $$(-3,-2)$$, $$(1,1)$$, $$(-5,-3)$$"
+            }, {
+                "id": 1,
+                "value": "$$(0,4)$$, $$(-2,-3)$$, $$(-1,-1)$$, $$(-5,3)$$"
+            }, {
+                "id": 2,
+                "value": "$$(0,-4)$$, $$(-3,-2)$$, $$(1,-1)$$, $$(5,-3)$$"
+            }, {
+                "id": 3,
+                "value": "$$(4,0)$$, $$(3,-2)$$, $$(-1,1)$$, $$(5,3)$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "11",
+        "next": "13",
+        "number": 13
+    },
+    "13": {
+        "id": "13",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 3 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 16)",
+            "options": [{
+                "id": 0,
+                "value": "$$(0,5)$$, $$(-4,4)$$, $$(-2,4)$$, $$(-2,3)$$"
+            }, {
+                "id": 1,
+                "value": "$$(-5,0)$$, $$(-2,-4)$$, $$(4,4)$$, $$(3,-2)$$"
+            }, {
+                "id": 2,
+                "value": "$$(5,0)$$, $$(4,2)$$, $$(4,-4)$$, $$(-3,2)$$"
+            }, {
+                "id": 3,
+                "value": "$$(0,-5)$$, $$(4,4)$$, $$(-2,4)$$, $$(2,-3)$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "12",
+        "next": "14",
+        "number": 14
+    },
+    "14": {
+        "id": "14",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 4 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 16)",
+            "options": [{
+                "id": 0,
+                "value": "$$(4,5)$$, $$(2,2)$$, $$(4,3)$$, $$(3,1)$$"
+            }, {
+                "id": 1,
+                "value": "$$(-4,5)$$, $$(-2,-2)$$, $$(-4,-3)$$, $$(1,3)$$"
+            }, {
+                "id": 2,
+                "value": "$$(5,4)$$, $$(-2,-2)$$, $$(4,-3)$$, $$(-1,3)$$"
+            }, {
+                "id": 3,
+                "value": "$$(-5,4)$$, $$(2,-2)$$, $$(-4,3)$$, $$(-3,1)$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "13",
+        "next": "15",
+        "number": 15
+    },
+    "15": {
+        "id": "15",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 5 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 17)",
+            "options": [{
+                "id": 0,
+                "value": "$$(4,0.5)$$, $$(2,3)$$, $$(-1,4)$$, $$(-2,-4)$$"
+            }, {
+                "id": 1,
+                "value": "$$(0.5,4)$$, $$(2,3)$$, $$(1,-4)$$, $$(-2,-4)$$"
+            }, {
+                "id": 2,
+                "value": "$$(4,1)$$, $$(3,2)$$, $$(1,4)$$, $$(-4,-2)$$"
+            }, {
+                "id": 3,
+                "value": "$$(1,4)$$, $$(3,2)$$, $$(-1,-4)$$, $$(-2,4)$$"
+            }],
+            "correctOption": {
+                "id": 0
+            }
+        },
+        "prev": "14",
+        "next": "16",
+        "number": 16
+    },
+    "16": {
+        "id": "16",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 6 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 17)",
+            "options": [{
+                "id": 0,
+                "value": "$$(-5,1)$$, $$(1,0)$$, $$(3,-2)$$, $$(-2,3)$$"
+            }, {
+                "id": 1,
+                "value": "$$(5,-1)$$, $$(0,1)$$, $$(-2,3)$$, $$(-2,3)$$"
+            }, {
+                "id": 2,
+                "value": "$$(-5,1)$$, $$(1,0)$$, $$(3,-2)$$, $$(2,-3)$$"
+            }, {
+                "id": 3,
+                "value": "$$(5,1)$$, $$(0,1)$$, $$(-3,-2)$$, $$(-2,-3)$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "15",
+        "next": "17",
+        "number": 17
+    },
+    "17": {
+        "id": "17",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 7 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 17)",
+            "options": [{
+                "id": 0,
+                "value": "$$(2,0)$$, $$(5,-1)$$, $$(0,-1)$$, $$(5,2)$$"
+            }, {
+                "id": 1,
+                "value": "$$(3,0)$$, $$(-1,5)$$, $$(0,-1)$$, $$(2,5)$$"
+            }, {
+                "id": 2,
+                "value": "$$(2.5,0)$$, $$(-1,5)$$, $$(-1,0)$$, $$(5,2)$$"
+            }, {
+                "id": 3,
+                "value": "$$(2.5,0)$$, $$(5,-1)$$, $$(0,-1)$$, $$(2,5)$$"
+            }],
+            "correctOption": {
+                "id": 3
+            }
+        },
+        "prev": "16",
+        "next": "18",
+        "number": 8
+    },
+    "18": {
+        "id": "18",
+        "sectionId": 13,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 8 of 8",
+            "questionDescription": "Determine which set of ordered pairs are on the graph.",
+            "question": "Graph (chapter 3 page 17)",
+            "options": [{
+                "id": 0,
+                "value": "$$(0,4.5)$$, $$(1,1)$$, $$(-5,-2)$$, $$(-3,4)$$"
+            }, {
+                "id": 1,
+                "value": "$$(0,4.5)$$, $$(1,-1)$$, $$(5,2)$$, $$(-4,-3)$$"
+            }, {
+                "id": 2,
+                "value": "$$(0,4.5)$$, $$(-1,1)$$, $$(-5,-2)$$, $$(-4,3)$$"
+            }, {
+                "id": 3,
+                "value": "$$(4.5,0)$$, $$(-1,1)$$, $$(-5,-2)$$, $$(-4,3)$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "17",
+        "next": "19",
+        "number": 19
+    },
+    "19": {
+        "id": "19",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Graphing Linear Equations",
+            "uri": "http://www.dropbox.com/s/rmun9py4u8jctki/chapter%203%20-%20page%2021.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "18",
+        "next": "20",
+        "number": 1
+    },
+    "20": {
+        "id": "20",
+        "sectionId": 14,
+        "type": "theory",
+        "content": {
+            "title": "Linear Equation in Two Variables",
+            "body": "A <b>linear equation in two variables</b> is any equation that can be written in the <b>standard form</b>, $ax+by=c$ where $$a$$, $$b$$ and $$c$$ are <b>real numbers</b>.<br/><br/><b>Note:</b> Solution to Linear equations in two variables are 'ordered pairs'."
+        },
+        "prev": "19",
+        "next": "21",
+        "number": 2
+    },
+    "21": {
+        "id": "21",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Linear Equation in Two Variables",
+            "uri": "http://www.dropbox.com/s/ual8xuxjq5nvva2/chapter%203%20-%20page%2022-23.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "20",
+        "next": "22",
+        "number": 3
+    },
+    "22": {
+        "id": "22",
+        "sectionId": 14,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "Determine if the following ordered pairs are solutions to the equation: $5x-3y=9$  a) $$(0,3)$$ <br/> b)$$(3,3)$$ <br/> c) $$(6,7)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/wm9o499z2jfgqt9/chapter%203%20-%20page%2024.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "21",
+        "next": "23",
+        "number": 4
+    },
+    "23": {
+        "id": "23",
+        "sectionId": 14,
+        "type": "theory",
+        "content": {
+            "title": "Finding Solutions to Linear Equation in Two Variables",
+            "body": "To find solutions to linear equations in two variables, we simply choose appropriate values for the <b>x-coordinate</b>, so that it reveals the value of the <b>y-coordinate</b>."
+        },
+        "prev": "22",
+        "next": "24",
+        "number": 5
+    },
+    "24": {
+        "id": "24",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Finding Solutions to Linear Equation in Two Variables",
+            "uri": "http://www.dropbox.com/s/e2fi21na4tljwyc/chapter%203%20-%20page%2025-26.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "23",
+        "next": "25",
+        "number": 6
+    },
+    "25": {
+        "id": "25",
+        "sectionId": 14,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "Create at least three solutions each for the following linear equations:  a) $$4x+7y=7$$ <br/> b) $$y=6x+3$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/2b6vm6w8b3vic8r/chapter%203%20-%20page%2027-28.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "24",
+        "next": "26",
+        "number": 7
+    },
+    "26": {
+        "id": "26",
+        "sectionId": 14,
+        "type": "theory",
+        "content": {
+            "title": "Graphing Linear Equations in Two Variables",
+            "body": "The <b>graphs</b> of a linear equation are <b>straight lines</b>, that's why these equations are called <b>'linear'</b>. To graph a linear equation we use the following steps <br/>$$\\circ$$ Find at least three solutions for the linear equation. <br/>$$\\circ$$ Plot the three solutions. <br/>$$\\circ$$ Draw a straight line through the three points."
+        },
+        "prev": "25",
+        "next": "27",
+        "number": 8
+    },
+    "27": {
+        "id": "27",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Graphing Linear Equations in Two Variables",
+            "uri": "http://www.dropbox.com/s/3ep7vro6zvc2gtn/chapter%203%20-%20page%2029-31.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "26",
+        "next": "28",
+        "number": 9
+    },
+    "28": {
+        "id": "28",
+        "sectionId": 14,
+        "type": "example",
+        "content": {
+            "title": "Example 3",
+            "example": "Graph the following linear equations:<br/><br/>  a) $$x=-5$$ <br/><br/> b) $$y=4$$ <br/><br/> c) $$-3x+9y=9$$ <br/<br/> d) $$y=-\\dfrac{4x}{5}-1",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/j8lpo2sgajpt3mi/chapter%203%20-%20page%2032-33.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "27",
+        "next": "29",
+        "number": 10
+    },
+    "29": {
+        "id": "29",
+        "sectionId": 14,
+        "type": "theory",
+        "content": {
+            "title": "$$x$$ and $$y$$ intercepts",
+            "body": "The <b>y-intercept</b> of a graph of an equation of a line is the point at which the graph crosses the <b>y-axis</b>, likewise the <b>x-intercept</b> of a graph of an equation of a line is the point at which the graph crosses the <b>x-axis</b>. <br/><br/>$$\\circ$$ To find the <b>y-intercept</b> of an equation of a line, we set $$x$$ equal to zero and solve for $$y$$. <br/><br/> $$\\circ$$ To find the <b>x-intercept</b> of an equation of a line, we set $$y$$ equal to zero and solve for $$x$$."
+        },
+        "prev": "28",
+        "next": "30",
+        "number": 11
+    },
+    "30": {
+        "id": "30",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "$$x$$ and $$y$$ intercepts",
+            "uri": "http://www.dropbox.com/s/odmducxg18phql1/chapter%203%20-%20page%2034-35.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "29",
+        "next": "31",
+        "number": 12
+    },
+    "31": {
+        "id": "31",
+        "sectionId": 14,
+        "type": "example",
+        "content": {
+            "title": "Example 4",
+            "example": "Graph the following linear equations using the $$x$$ and $$y$$ intercepts:<br/><br/>  a) $$3x+2y=6$$ <br/><br/> b) $$2x-5y=10$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/95lgiiyd8ja7sjv/chapter%203%20-%20page%2036-37.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "30",
+        "next": "32",
+        "number": 13
+    },
+    "32": {
+        "id": "32",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "https://youtu.be/mnYSEz7a_EE",
+            "videoType": "youtube"
+        },
+        "prev": "31",
+        "next": "33",
+        "number": 14
+    },
+    "33": {
+        "id": "33",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 2",
+            "uri": "https://youtu.be/mnYSEz7a_EE",
+            "videoType": "youtube"
+        },
+        "prev": "32",
+        "next": "34",
+        "number": 15
+    },
+    "34": {
+        "id": "34",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 3",
+            "uri": "https://youtu.be/mnYSEz7a_EE",
+            "videoType": "youtube"
+        },
+        "prev": "33",
+        "next": "35",
+        "number": 16
+    },
+    "35": {
+        "id": "35",
+        "sectionId": 14,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 4",
+            "uri": "https://youtu.be/zuwrIO5_vL0",
+            "videoType": "youtube"
+        },
+        "prev": "34",
+        "next": "36",
+        "number": 17
+    },
+    "36": {
+        "id": "36",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 1 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$8x+4y=-8$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 38)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 38)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 38)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 38)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "35",
+        "next": "37",
+        "number": 18
+    },
+    "37": {
+        "id": "37",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 2 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$6x-4y=12$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 39)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 39)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 39)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 39)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "36",
+        "next": "38",
+        "number": 19
+    },
+    "38": {
+        "id": "38",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 3 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$3x+2y=-6$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 40)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 40)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 40)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 40)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "37",
+        "next": "39",
+        "number": 20
+    },
+    "39": {
+        "id": "39",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 4 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$-4x-6y=24$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 41)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 41)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 41)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 41)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "38",
+        "next": "40",
+        "number": 21
+    },
+    "40": {
+        "id": "40",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 5 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$y=3x-3$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 42)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 42)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 42)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 42)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "39",
+        "next": "41",
+        "number": 22
+    },
+    "41": {
+        "id": "41",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 6 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$5x-3y=-15$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 43)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 43)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 43)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 43)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "40",
+        "next": "42",
+        "number": 23
+    },
+    "42": {
+        "id": "42",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 7 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$21x+7=21$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 44)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 44)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 44)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 44)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "41",
+        "next": "43",
+        "number": 24
+    },
+    "44": {
+        "id": "44",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 8 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$50x-25y=100$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 45)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 45)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 45)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 45)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "43",
+        "next": "45",
+        "number": 26
+    },
+    "45": {
+        "id": "45",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 9 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$-8x+8y=16$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 46)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 46)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 46)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 46)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "44",
+        "next": "46",
+        "number": 27
+    },
+    "46": {
+        "id": "45",
+        "sectionId": 14,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 10 of 10",
+            "questionDescription": "Which of the following is the graph of the equation of a line.",
+            "question": "$$y=\\dfrac{5}{4}x+5$$",
+            "options": [{
+                "id": 0,
+                "value": "Graph (chapter 3 page 47)"
+            }, {
+                "id": 1,
+                "value": "Graph (chapter 3 page 47)"
+            }, {
+                "id": 2,
+                "value": "Graph (chapter 3 page 47)"
+            }, {
+                "id": 3,
+                "value": "Graph (chapter 3 page 47)"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "45",
+        "next": "47",
+        "number": 28
+    },
+    "47": {
+        "id": "47",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Using the Slope and y-Intercept, and the Point Slope Formulas to Find the Equation of a Line",
+            "uri": "http://www.dropbox.com/s/qcfvd5j396hv19j/chapter%203%20-%20page%2055.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "46",
+        "next": "48",
+        "number": 1
+    },
+    "48": {
+        "id": "48",
+        "sectionId": 15,
+        "type": "theory",
+        "content": {
+            "title": "The Slope of a Line",
+            "body": "The <b>slope</b> of a line is number that measures the steepness of the line when passing through two points, that is,<br/> Given any two points $$(x_{1},y_{1})$$ and $$(x_{2},y_{2})$$ read, 'x sub 1, y sub 1' and 'x sub 2, y sub 2', then the slope of a line $$m$$ passing through two points is given by: $m=\\dfrac{y_{2}-y_{1}}{x_{2}-x_{1}}$"
+        },
+        "prev": "47",
+        "next": "49",
+        "number": 2
+    },
+
+    "49": {
+        "id": "49",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "The Slope of a Line",
+            "uri": "http://www.dropbox.com/s/4b0majbzflwkmzg/chapter%203%20-%20page%2056-57.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "48",
+        "next": "50",
+        "number": 3
+    },
+    "50": {
+        "id": "50",
+        "sectionId": 15,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "Find the slope of the line passing through the following paints of points: <br/> a) $$(2,1)$$, $$(5,7)$$ <br/><br/> b) $$(4,-2)$$, $$(-5,6)$$ <br/><br/> c) $$(-2,-3)$$, $$(-5,-9)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/8ks5a9osl5gyfgi/chapter%203%20-%20page%2058-59.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "49",
+        "next": "51",
+        "number": 4
+    },
+
+    "51": {
+        "id": "51",
+        "sectionId": 15,
+        "type": "theory",
+        "content": {
+            "title": "Slope-Intercept Form of the Equation of a Line",
+            "body": "The slope-intercept form of an equation of a line is given by: $y=mx+b$ Where $$m$$ is the <b>slope</b> and $$b$$ is the <b>y-intercept</b>."
+        },
+        "prev": "50",
+        "next": "52",
+        "number": 5
+    },
+    "52": {
+        "id": "52",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Slope-Intercept Form of the Equation of a Line",
+            "uri": "http://www.dropbox.com/s/7sxwzbgsxjr7a4k/chapter%203%20-%20page%2060-62.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "51",
+        "next": "53",
+        "number": 6
+    },
+    "53": {
+        "id": "53",
+        "sectionId": 15,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "Find the slope and y-intercept for the following linear equations and write in slope y-intercept form: <br/> a) $$10x-5y=30$$ <br/> b) $$14x+7y=-3$$ <br/> c) y=-\\dfrac{1}{5}x+10$$ <br/><br/> Find the equation of the line with the given slope and y-intercept and write in slope-intercept form <br/> d) $$m=4$$ and $$b=5$$ <br/> e) $$m=\\dfrac{11}{3}$$ and $$b=-5$$ <br/> f) $$m=-7$$ and $$b=\\dfrac{3}{4}$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/e6as07m3amywxvs/chapter%203%20-%20page%2063-65.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "52",
+        "next": "54",
+        "number": 7
+    },
+    "54": {
+        "id": "54",
+        "sectionId": 15,
+        "type": "theory",
+        "content": {
+            "title": "Point-Slope Form of the Equation of a line",
+            "body": "The point-slope form of an equation of a line is given by: $y-y_{1}=m(x-x_{1})$ Where $$m$$ is the <b>slope</b> and $$x_{1}$$ and $$y_{1}$$ are coordinates in an ordered pair $$(x_{1},y_{1})$$"
+        },
+        "prev": "53",
+        "next": "55",
+        "number": 8
+    },
+    "55": {
+        "id": "55",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Point-Slope Form of the Equation of a line",
+            "uri": "http://www.dropbox.com/s/1wvh0fkjcayjxyz/chapter%203%20-%20page%2066-69.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "54",
+        "next": "56",
+        "number": 9
+    },
+    "56": {
+        "id": "56",
+        "sectionId": 15,
+        "type": "example",
+        "content": {
+            "title": "Example 3",
+            "example": "Find the equation of the line with the given slopes and points: <br/> a) $$m=-4$$, $$(-4,2)$$ <br/> b) $$m=\\dfrac{2}{3}$$, $$(3,3)$$ <br/><br/> Find the equation of the line that passes through the following pairs of points: <br/> c) $$(-4,-7)$$, $$(4,1)$$ <br/>d) $$(-2,-6)$$, $$(1,3)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/thxgnviovd92o0d/chapter%203%20-%20page%2070-73.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "55",
+        "next": "57",
+        "number": 10
+    },
+    "57": {
+        "id": "57",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 1",
+            "uri": "https://youtu.be/2kMUk_XRvRQ",
+            "videoType": "youtube"
+        },
+        "prev": "56",
+        "next": "58",
+        "number": 11
+    },
+    "58": {
+        "id": "58",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 2",
+            "uri": "https://youtu.be/0bqr9Fo3Qi8",
+            "videoType": "youtube"
+        },
+        "prev": "57",
+        "next": "59",
+        "number": 12
+    },
+    "59": {
+        "id": "59",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 3",
+            "uri": "https://youtu.be/-8yM86_1fC4",
+            "videoType": "youtube"
+        },
+        "prev": "58",
+        "next": "60",
+        "number": 13
+    },
+    "60": {
+        "id": "60",
+        "sectionId": 15,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 4",
+            "uri": "https://youtu.be/ndRpJxdmZJI",
+            "videoType": "youtube"
+        },
+        "prev": "59",
+        "next": "61",
+        "number": 14
+    }, 
+    "61": {
+        "id": "61",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 1 of 16",
+            "questionDescription": "Find the equation of the horizontal line passing through the point",
+            "question": "$$(5,2)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$x=5$$"
+            }, {
+                "id": 1,
+                "value": "$$y=x+2$$"
+            }, {
+                "id": 2,
+                "value": "$$y=2$$"
+            }, {
+                "id": 3,
+                "value": "$$y=\\dfrac{2}{5}x$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "60",
+        "next": "62",
+        "number": 15
+    },
+    "62": {
+        "id": "62",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 2 of 16",
+            "questionDescription": "Find the equation of the horizontal line passing through the point",
+            "question": "$$(-3,4)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=-\\dfrac{3}{4}x$$"
+            }, {
+                "id": 1,
+                "value": "$$y=4$$"
+            }, {
+                "id": 2,
+                "value": "$$x=-\\dfrac{3}{4}$$"
+            }, {
+                "id": 3,
+                "value": "$$x=-3$$"
+            }],
+            "correctOption": {
+                "id":3
+            }
+        },
+        "prev": "61",
+        "next": "63",
+        "number": 16
+    },
+
+    "63": {
+        "id": "63",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 3 of 16",
+            "questionDescription": "Find the equation of the horizontal line passing through the point",
+            "question": "$$(4,-7)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=-7$$"
+            }, {
+                "id": 1,
+                "value": "$$y=x-4$$"
+            }, {
+                "id": 2,
+                "value": "$$x=4$$"
+            }, {
+                "id": 3,
+                "value": "$$y=4x-7$$"
+            }],
+            "correctOption": {
+                "id": 0
+            }
+        },
+        "prev": "62",
+        "next": "64",
+        "number": 17
+    },
+    "64": {
+        "id": "64",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 4 of 16",
+            "questionDescription": "Find the equation of the horizontal line passing through the point",
+            "question": "$$(6,-2)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$x=-2$$"
+            }, {
+                "id": 1,
+                "value": "$$x=6$$"
+            }, {
+                "id": 2,
+                "value": "$$y=6x-2$$"
+            }, {
+                "id": 3,
+                "value": "$$y=x+6$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "63",
+        "next": "65",
+        "number": 18
+    },
+    "65": {
+        "id": "65",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 5 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$5x-9y=36$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= -$$\\dfrac{5}{9}$$ and y-intercept= $$(0,-4)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= $$\\dfrac{5}{9}$$ and y-intercept= $$(0,-4)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= $$\\dfrac{9}{5}$$ and y-intercept= $$(0,36)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= -$$\\dfrac{9}{5}$$ and y-intercept= $$(0,36)$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "64",
+        "next": "66",
+        "number": 19
+    },
+    "66": {
+        "id": "66",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 6 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$3x+7y=42$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= -$$\\dfrac{3}{7}$$ and y-intercept= $$(0,6)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= -$$\\dfrac{7}{3}$$ and y-intercept= $$(0,42)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= $$\\dfrac{7}{3}$$ and y-intercept= $$(0,42)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= $$\\dfrac{3}{7}$$ and y-intercept= $$(0,6)$$"
+            }],
+            "correctOption": {
+                "id": 0
+            }
+        },
+        "prev": "65",
+        "next": "67",
+        "number": 20
+    },
+    "67": {
+        "id": "67",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 7 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$8x-3y=-15$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= $$\\dfrac{3}{8}$$ and y-intercept= $$(0,-15)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= -$$\\dfrac{8}{3}$$ and y-intercept= $$(0,5)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= $$\\dfrac{8}{3}$$ and y-intercept= $$(0,5)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= -$$\\dfrac{3}{8}$$ and y-intercept= $$(0,-15)$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "66",
+        "next": "68",
+        "number": 21
+    },
+    "68": {
+        "id": "68",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 8 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$-7x-9y=-72$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= $$\\dfrac{7}{9}$$ and y-intercept= $$(0,8)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= -$$\\dfrac{9}{7}$$ and y-intercept= $$(0,-72)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= -$$\\dfrac{7}{9}$$ and y-intercept= $$(0,8)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= -$$\\dfrac{9}{7}$$ and y-intercept= $$(0,-72)$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "67",
+        "next": "69",
+        "number": 22
+    },
+    "69": {
+        "id": "69",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 9 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$2x+3y=39$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= $$\\dfrac{3}{2}$$ and y-intercept= $$(0,39)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= $$\\dfrac{2}{3}$$ and y-intercept= $$(0,13)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= -$$\\dfrac{3}{2}$$ and y-intercept= $$(0,39)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= -$$\\dfrac{2}{3}$$ and y-intercept= $$(0,13)$$"
+            }],
+            "correctOption": {
+                "id": 3
+            }
+        },
+        "prev": "68",
+        "next": "70",
+        "number": 23
+    },
+    "70": {
+        "id": "70",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 10 of 16",
+            "questionDescription": "Find the slope and y-intercept for the graph of the equation",
+            "question": "$$9x-11y=77$$",
+            "options": [{
+                "id": 0,
+                "value": "Slope= $$\\dfrac{11}{9}$$ and y-intercept= $$(0,77)$$"
+            }, {
+                "id": 1,
+                "value": "Slope= -$$\\dfrac{11}{9}$$ and y-intercept= $$(0,77)$$"
+            }, {
+                "id": 2,
+                "value": "Slope= -$$\\dfrac{9}{11}$$ and y-intercept= $$(0,-7)$$"
+            }, {
+                "id": 3,
+                "value": "Slope= $$\\dfrac{9}{11}$$ and y-intercept= $$(0,-7)$$"
+            }],
+            "correctOption": {
+                "id": 3
+            }
+        },
+        "prev": "69",
+        "next": "71",
+        "number": 24
+    },
+    "71": {
+        "id": "71",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 11 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(2,7)$$ and $$(0,1)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=3x+1$$"
+            }, {
+                "id": 1,
+                "value": "$$y=3x+3$$"
+            }, {
+                "id": 2,
+                "value": "$$y=-3x-1$$"
+            }, {
+                "id": 3,
+                "value": "$$y=-3x-3$$"
+            }],
+            "correctOption": {
+                "id": 0
+            }
+        },
+        "prev": "70",
+        "next": "72",
+        "number": 25
+    },
+    "72": {
+        "id": "72",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 12 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(1,3)$$ and $$(2,4)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=x+1$$"
+            }, {
+                "id": 1,
+                "value": "$$y=-x+1$$"
+            }, {
+                "id": 2,
+                "value": "$$y=-x-2$$"
+            }, {
+                "id": 3,
+                "value": "$$y=x+2$$"
+            }],
+            "correctOption": {
+                "id": 3
+            }
+        },
+        "prev": "71",
+        "next": "73",
+        "number": 26
+    },
+    "73": {
+        "id": "73",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 13 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(2,16)$$ and $$(-1,7)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=-3x+10$$"
+            }, {
+                "id": 1,
+                "value": "$$y=-9x+10$$"
+            }, {
+                "id": 2,
+                "value": "$$y=3x+10$$"
+            }, {
+                "id": 3,
+                "value": "$$y=9x-10$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "72",
+        "next": "74",
+        "number": 27
+    },
+    "74": {
+        "id": "74",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 14 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(4,5)$$ and $$(8,3)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=2x+3$$"
+            }, {
+                "id": 1,
+                "value": "$$y=-\\dfrac{1}{2}+7$$"
+            }, {
+                "id": 2,
+                "value": "$$y=-2x+3$$"
+            }, {
+                "id": 3,
+                "value": "$$y=\\dfrac{1}{2}-7$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "73",
+        "next": "75",
+        "number": 28
+    },
+    "75": {
+        "id": "75",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 15 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(0,2)$$ and $$(1,3)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=-5x-5$$"
+            }, {
+                "id": 1,
+                "value": "$$y=-5x+2$$"
+            }, {
+                "id": 2,
+                "value": "$$y=-5x+5$$"
+            }, {
+                "id": 3,
+                "value": "$$y=5x-2$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "74",
+        "next": "76",
+        "number": 29
+    },
+    "76": {
+        "id": "76",
+        "sectionId": 15,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 16 of 16",
+            "questionDescription": "Find the equation of the line passing through following points :",
+            "question": "$$(-4,-2)$$ and $$(-3,5)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$y=-7x-26$$"
+            }, {
+                "id": 1,
+                "value": "$$y=3x+16$$"
+            }, {
+                "id": 2,
+                "value": "$$y=7x+26$$"
+            }, {
+                "id": 3,
+                "value": "$$y=-3x-16$$"
+            }],
+            "correctOption": {
+                "id": 2
+            }
+        },
+        "prev": "75",
+        "next": "77",
+        "number": 30
+    },
+     "77": {
+        "id": "77",
+        "sectionId": 16,
+        "type": "video",
+        "content": {
+            "title": "Function Notation and Functions",
+            "uri": "http://www.dropbox.com/s/562zda88766key0/chapter%203%20-%20page%2084.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "76",
+        "next": "78",
+        "number": 1
+    },
+    "78": {
+        "id": "78",
+        "sectionId": 16,
+        "type": "theory",
+        "content": {
+            "title": "Function",
+            "body": "A <b>function</b> is a rule in which no two ordered pairs share the same x-coordinate. In other words a function is an equation for which any <b>input</b> $$x$$, substituted into the equation will yield one <b>output</b> $$y$$, from the equation."
+        },
+        "prev": "77",
+        "next": "79",
+        "number": 2
+    },
+    "79": {
+        "id": "79",
+        "sectionId": 16,
+        "type": "video",
+        "content": {
+            "title": "Function",
+            "uri": "http://www.dropbox.com/s/7bah2wkv8x795hv/chapter%203%20-%20page%2085-86.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "78",
+        "next": "80",
+        "number": 3
+    },
+    "80": {
+        "id": "80",
+        "sectionId": 16,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "Determine if the following sets of ordered pairs represent a function. <br/><br/> a) $$(-4,-3)$$, $$(-2,0)$$, $$(0,3)$$, $$(2,6)$$ <br/><br/> a) $$(-2,1)$$, $$(-1,-2)$$, $$(0,-3)$$, $$(1,-2)$$ <br/><br/> a) $$(7,-2)$$, $$(1,0)$$, $$(-1,6)$$, $$(1,-5)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/kwfvqajlwwel57l/chapter%203%20-%20page%2086-87.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "79",
+        "next": "81",
+        "number": 4
+    },
+    "81": {
+        "id": "81",
+        "sectionId": 16,
+        "type": "theory",
+        "content": {
+            "title": "Function Notation",
+            "body": "The output of a function '$$f$$' that corresponds to an input '$$x$$' can be written using <b>function notation</b> and is denoted by $$f(x)$$, (read '$$f$$ of $$x$$'). We use this notation to help identify specific functions and indicate how a function may need to be evaluated. <br/><br/><b>Note:</b><br/> $$\\circ$$ Any letter of variable can be used in function notation such as, $$g(x)$$, $$f(a)$$, $$s(t)$$. <br/><br/>$$\\circ$$ The function notation $$f(x)$$, <b>is not multiplication</b> between $$f$$ and $$x$$. <br/><br/>$$\\circ$$ Any linear equation written in slope-intercept form and many non-linear equations written with xy-notation can be written using function notation."
+        },
+        "prev": "80",
+        "next": "82",
+        "number": 5
+    },
+    "82": {
+        "id": "82",
+        "sectionId": 16,
+        "type": "video",
+        "content": {
+            "title": "Function Notation",
+            "uri": "http://www.dropbox.com/s/1lwszwyit54b5qq/chapter%203%20-%20page%2088.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "81",
+        "next": "83",
+        "number": 6
+    },
+    "83": {
+        "id": "83",
+        "sectionId": 16,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "Write the following equations using the given function notation: <br/><br/> a) $$y=8x+7$$ as a funtion of $$f$$  <br/><br/> a) $$y=8x+7$$ as a funtion of $$f$$  <br/><br/> b) $$y=5x^2+2x-11$$ as a funtion of $$g$$  <br/><br/> c) $$m=9n-4$$ as a funtion of $$f$$ <br/><br/> d) $$r=6T^2-9T+1$$ as a funtion of $$s$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/dkt5xapqca7un5z/chapter%203%20-%20page%2089.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "82",
+        "next": "84",
+        "number": 7
+    },
+    "84": {
+        "id": "81",
+        "sectionId": 16,
+        "type": "theory",
+        "content": {
+            "title": "Using Function Notation",
+            "body": "To <b>evaluate a function</b> using <b>function notation</b>, say $$f(x)$$, we simply substitute a value for $$x$$ in the function $$f$$ and calculate the value of $$f$$ at $$x$$. This allows us to write more information with fewer symbols and words than we would have used with $$xy$$-notation."
+        },
+        "prev": "83",
+        "next": "85",
+        "number": 8
+    },
+    "85": {
+        "id": "85",
+        "sectionId": 16,
+        "type": "video",
+        "content": {
+            "title": "Using Function Notation",
+            "uri": "http://www.dropbox.com/s/trzet6ewg2mj1gu/chapter%203%20-%20page%2090-91.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "84",
+        "next": "86",
+        "number": 9
+    },
+    "86": {
+        "id": "86",
+        "sectionId": 16,
+        "type": "example",
+        "content": {
+            "title": "Example 3",
+            "example": "Evaluate each function as indicated: <br/><br/> a) $$f(x)=10x-2$$ find $$f(2)$$ <br/><br/> b) $$f(x)=5x^2+4x-10$$ find $$f(4)$$ <br/><br/> c) $$h(a)=15a+25$$ find $$h(0)$$ <br/><br/> a) $$S(x)=2x^2-10x+5$$ find $$S(-5)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/r9oamo4df4gzopp/chapter%203%20-%20page%2092-93.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "85",
+        "next": "87",
+        "number": 10
+    },
+    "87": {
+        "id": "87",
+        "sectionId": 16,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "https://youtu.be/19cSdepiXFU",
+            "videoType": "youtube"
+        },
+        "prev": "86",
+        "next": "88",
+        "number": 11
+    },
+    "88": {
+        "id": "88",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 1 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=4x+5$$ find $$f(-8)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(-8)=37$$"
+            }, {
+                "id": 1,
+                "value": "$$f(-8)=-37$$"
+            }, {
+                "id": 2,
+                "value": "$$f(-8)=-27$$"
+            }, {
+                "id": 3,
+                "value": "$$f(-8)=27$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "87",
+        "next": "89",
+        "number": 12
+    },
+    "89": {
+        "id": "89",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 2 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$h(n)=n-2$$ find $$n(10)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$n(10)=7$$"
+            }, {
+                "id": 1,
+                "value": "$$n(10)=-7$$"
+            }, {
+                "id": 2,
+                "value": "$$n(10)=13$$"
+            }, {
+                "id": 3,
+                "value": "$$n(10)=-13$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "88",
+        "next": "90",
+        "number": 13
+    },
+    "90": {
+        "id": "90",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 3 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=4x3$$ find $$f(2)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(2)=10$$"
+            }, {
+                "id": 1,
+                "value": "$$f(2)=11$$"
+            }, {
+                "id": 2,
+                "value": "$$f(2)=9$$"
+            }, {
+                "id": 3,
+                "value": "$$f(2)=14$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "89",
+        "next": "91",
+        "number": 14
+    },
+    "91": {
+        "id": "91",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 4 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=-4x+3$$ find $$f(6)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(6)=27$$"
+            }, {
+                "id": 1,
+                "value": "$$f(6)=-27$$"
+            }, {
+                "id": 2,
+                "value": "$$f(6)=21$$"
+            }, {
+                "id": 3,
+                "value": "$$f(6)=-21$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "90",
+        "next": "92",
+        "number": 15
+    },
+    "92": {
+        "id": "92",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 5 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=3x$$ find $$f(-6)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(-6)=18$$"
+            }, {
+                "id": 1,
+                "value": "$$f(-6)=3$$"
+            }, {
+                "id": 2,
+                "value": "$$f(-6)=-3$$"
+            }, {
+                "id": 3,
+                "value": "$$f(-6)=-18$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "91",
+        "next": "93",
+        "number": 16
+    },
+    "93": {
+        "id": "93",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 6 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$p(x)=-x+1$$ find $$p(-10)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$p(-10)=11$$"
+            }, {
+                "id": 1,
+                "value": "$$f(-10)=-9$$"
+            }, {
+                "id": 2,
+                "value": "$$f(-10)=9$$"
+            }, {
+                "id": 3,
+                "value": "$$f(-10)=-11$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "92",
+        "next": "94",
+        "number": 17
+    },
+    "94": {
+        "id": "94",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 7 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$g(x)=x^2+4$$ find $$g(-9)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$g(-9)=-85$$"
+            }, {
+                "id": 1,
+                "value": "$$g(-9)=85$$"
+            }, {
+                "id": 2,
+                "value": "$$g(-9)=22$$"
+            }, {
+                "id": 3,
+                "value": "$$g(-9)=-77$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "93",
+        "next": "95",
+        "number": 18
+    },
+    "95": {
+        "id": "95",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 8 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$g(n)=n^2+5$$ find $$g(-5)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$g(-5)=-30$$"
+            }, {
+                "id": 1,
+                "value": "$$g(-5)=-20$$"
+            }, {
+                "id": 2,
+                "value": "$$g(-5)=30$$"
+            }, {
+                "id": 3,
+                "value": "$$g(-5)=20$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "94",
+        "next": "96",
+        "number": 19
+    },
+    "96": {
+        "id": "96",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 9 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$k(a)=3a^2-4$$ find $$k(0)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$k(0)=-1$$"
+            }, {
+                "id": 1,
+                "value": "$$k(0)=-7$$"
+            }, {
+                "id": 2,
+                "value": "$$k(0)=-4$$"
+            }, {
+                "id": 3,
+                "value": "$$k(0)=1$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "95",
+        "next": "97",
+        "number": 20
+    },
+    "97": {
+        "id": "97",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 10 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=x^2+4x$$ find $$f(-5)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(-5)=5$$"
+            }, {
+                "id": 1,
+                "value": "$$f(-5)=-5$$"
+            }, {
+                "id": 2,
+                "value": "$$f(-5)=45$$"
+            }, {
+                "id": 3,
+                "value": "$$f(-5)=-45$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "96",
+        "next": "98",
+        "number": 21
+    },
+    "98": {
+        "id": "98",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 11 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$g(x)=x^2-3$$ find $$g(-1)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$g(-1)=4$$"
+            }, {
+                "id": 1,
+                "value": "$$g(-1)=-4$$"
+            }, {
+                "id": 2,
+                "value": "$$g(-1)=2$$"
+            }, {
+                "id": 3,
+                "value": "$$g(-1)=-2$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "97",
+        "next": "99",
+        "number": 22
+    },
+    "99": {
+        "id": "99",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 12 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$h(x)=-3x^2-5x$$ find $$h(2)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$h(2)=22$$"
+            }, {
+                "id": 1,
+                "value": "$$h(2)=-2$$"
+            }, {
+                "id": 2,
+                "value": "$$h(2)=-22$$"
+            }, {
+                "id": 3,
+                "value": "$$h(2)=2$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "98",
+        "next": "100",
+        "number": 22
+    },
+    "100": {
+        "id": "100",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 13 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$f(x)=2x^2+4x-4$$ find $$f(3)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$f(3)=50$$"
+            }, {
+                "id": 1,
+                "value": "$$f(3)=16$$"
+            }, {
+                "id": 2,
+                "value": "$$f(3)=34$$"
+            }, {
+                "id": 3,
+                "value": "$$f(3)=26$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "99",
+        "next": "101",
+        "number": 23
+    },
+    "101": {
+        "id": "101",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 14 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$g(x)=x^3+3x^2+2x$$ find $$g(-5)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$g(-5)=275$$"
+            }, {
+                "id": 1,
+                "value": "$$g(-5)=-60$$"
+            }, {
+                "id": 2,
+                "value": "$$g(-5)=-275$$"
+            }, {
+                "id": 3,
+                "value": "$$g(-5)=60$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "100",
+        "next": "102",
+        "number": 24
+    },
+    "102": {
+        "id": "102",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 15 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$h(x)=-x^2-x+2$$ find $$h(10)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$h(10)=-108$$"
+            }, {
+                "id": 1,
+                "value": "$$h(10)=108$$"
+            }, {
+                "id": 2,
+                "value": "$$h(10)=92$$"
+            }, {
+                "id": 3,
+                "value": "$$h(10)=-92$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "101",
+        "next": "103",
+        "number": 25
+    },
+    "103": {
+        "id": "103",
+        "sectionId": 16,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question 16 of 16",
+            "questionDescription": "Evaluate the function as indicated.",
+            "question": "$$S(x)=-T^3+5T^2+2T$$ find $$S(-6)$$",
+            "options": [{
+                "id": 0,
+                "value": "$$S(-6)=132$$"
+            }, {
+                "id": 1,
+                "value": "$$S(-6)=-132$$"
+            }, {
+                "id": 2,
+                "value": "$$S(-6)=384$$"
+            }, {
+                "id": 3,
+                "value": "$$S(-6)=-384$$"
+            }],
+            "correctOption": {
+                "id": 1
+            }
+        },
+        "prev": "102",
+        "next": "",
+        "number": 26
+    }
+
+}

@@ -1,0 +1,440 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": "1",
+        "type": "video",
+        "content": {
+            "title": "Real Numbers",
+            "uri": "http://www.dropbox.com/s/1om2b3hjapahdm6/chapter%201%20-%20page%2023.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": "1",
+        "type": "theory",
+        "content": {
+            "title": "Real Numbers",
+            "body": "Real numbers are numbers that can be found on the number line, and because real numbers have permanent place on the number line, their size can be compared."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": "1",
+        "type": "video",
+        "content": {
+            "title": "Real Numners",
+            "uri": "http://www.dropbox.com/s/ozoa3cp8vtw7xqv/chapter%201%20-%20page%2024.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": "1",
+        "type": "example",
+        "content": {
+            "title": "Example 1: Real Numbers",
+            "example": "Interpret the following problem as an integer: Adult crickets die if the temperature drops 5 degrees below 0 Fahrenheit.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/ip6j0dm398osenr/chapter%201%20-%20page%2025.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": "1",
+        "type": "video",
+        "content": {
+            "title": "Rational Numbers",
+            "uri": "http://www.dropbox.com/s/ozoa3cp8vtw7xqv/chapter%201%20-%20page%2024.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": "1",
+        "type": "theory",
+        "content": {
+            "title": "Note",
+            "body": "On the number line: <br/>- The origin is located at the point 0.<br/>- Positive numbers are located on the right side of 0. - Negative numbers are located on the left side of 0.<br/>- 0 is the only number that is neither negative or positive.<br/>**Diagram**"
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": "1",
+        "type": "example",
+        "content": {
+            "title": "Example 2: ",
+            "example": "Grpah each number on the same number line. <br/>a) $$\\dfrac{-3}{2}$$ <br/>b) $$4.2$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/8gi740j6y6ayk2u/chapter%201%20-%20page%2027a.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": "1",
+        "type": "video",
+        "content": {
+            "title": "Rational Numbers",
+            "uri": "http://www.dropbox.com/s/wp9cbf1lwiyphwu/chapter%201%20-%20page%2027b.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": "1",
+        "type": "theory",
+        "content": {
+            "title": "Note",
+            "body": "The symbol  means is approximately equal to."
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": "1",
+        "type": "example",
+        "content": {
+            "title": "Example 3: ",
+            "example": "Grpah each number on the same number line. <br/>a) $$\\sqrt{2}$$ <br/>b) $$e$$ <br/>c) $$\\pi$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/nnidjms3ypjd5qj/chapter%201%20-%20page%2028.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": "1",
+        "type": "theory",
+        "content": {
+            "title": "Comparing Real Numbers",
+            "body": "The number line is extremely useful in mathematics, one such use allows to compare two numbers.<br/>** Diagram **<br/>When comparing two number on the number line the number to the left is always smaller than the number to the right. For example, -5 is smaller than -2 since it is set to the left of -2."
+        },
+        "prev": "9",
+        "next": "11"
+    },
+    "11": {
+        "id": "11",
+        "sectionId": "1",
+        "type": "example",
+        "content": {
+            "title": "Example 4: ",
+            "example": "Determine if each inequality is true or false. <br/>a) $-5 < -3$$ <br/>b) $$-4 \\ge \\dfrac{1}{4}<br/>c) $$-3 \\ge -3$$ <br/>d) $$-5.1 < -2.5$$ <br/>e) $$-3 > 0$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/x585x8fa76osvee/chapter%201%20-%20page%2030.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "10",
+        "next": "12"
+    },
+    "12": {
+        "id": "12",
+        "sectionId": "1",
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "http://youtu.be/YZWqhQGCR3o",
+            "videoType": "youtube"
+        },
+        "prev": "11",
+        "next": "13"
+    },
+    "13": {
+        "id": "13",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "A loss of $ $$1800.30$$",
+            "option": [{"id": 0, "value": "$$-$$ $ $$1800.30$$"},{"id": 1, "value": "$ $$1800.30$$"},{"id": 2, "value": "$$-$$ $ $$180.30$$"},{"id": 3, "value": "$ $$180.30$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "12",
+        "next": "14"
+    },
+    "14": {
+        "id": "14",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "An investment of $ $$175.00",
+            "option": [{"id": 0, "value": "$ $$175.00$$"},{"id": 1, "value": "$$-$$ $ $$17.50$$"},{"id": 2, "value": "$ $$17.50$$"},{"id": 3, "value": "$$-$$ $ $$175.00$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "13",
+        "next": "15"
+    },
+    "15": {
+        "id": "15",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "A $$5$$ inche reach disadvantage.",
+            "option": [{"id": 0, "value": "$$5.0$$ inches"},{"id": 1, "value": "$$0.5$$ inches"},{"id": 2, "value": "$$-5.0$$ inches"},{"id": 3, "value": "$$-0.5$$ inches"}],
+            "correctOption": { "id": 2 }
+        },
+        "prev": "14",
+        "next": "16"
+    },
+    "16": {
+        "id": "16",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "A Temperature increase of $$13^\\circ F$$.",
+            "option": [{"id": 0, "value": "$$-13^\\circ F$$"},{"id": 1, "value": "$$13^\\circ F$$"},{"id": 2, "value": "$$-1.3^\\circ F$$"},{"id": 3, "value": "$$1.3^\\circ F$$"}],
+            "correctOption": { "id": 1 }
+        },
+        "prev": "15",
+        "next": "17"
+    },
+    "17": {
+        "id": "17",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "A win of $ $$500$$",
+            "option": [{"id": 0, "value": "$ $$500$$"},{"id": 1, "value": "$$-$$ $ $$500$$"},{"id": 2, "value": "$$-$$ $ $$500$$"},{"id": 3, "value": "$ $$5000$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "16",
+        "next": "18"
+    },
+    "18": {
+        "id": "18",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Which of the following choices is the correct interpretation as an integer for each problem.",
+            "question": "the plane flew at an altitude of $$2000$$ft",
+            "option": [{"id": 0, "value": "$$2$$ft"},{"id": 1, "value": "$$-2000$$ft"},{"id": 2, "value": "$$-2$$ft"},{"id": 3, "value": "$$2000$$ft"}],
+            "correctOption": { "id": 3 }
+        },
+        "prev": "17",
+        "next": "19"
+    },
+    "19": {
+        "id": "19",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$$-8>5.8$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 1}
+        },
+        "prev": "18",
+        "next": "20"
+    },
+    "20": {
+        "id": "20",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$$-8>-3$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 1}
+        },
+        "prev": "19",
+        "next": "21"
+    },
+    "21": {
+        "id": "21",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$$-4<-6$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 1 }
+        },
+        "prev": "20",
+        "next": "22"
+    },
+    "22": {
+        "id": "22",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$$-7\\le-7$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 0 }
+        },
+        "prev": "21",
+        "next": "23"
+    },
+    "23": {
+        "id": "23",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$$0\\ge-\\dfrac{1}{2}$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 0 }
+        },
+        "prev": "22",
+        "next": "24"
+    },
+    "24": {
+        "id": "24",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate whether each inequality is true or false.",
+            "question": "$1.3>-1$$",
+            "option": [{"id": 0, "value": "True"},{"id": 1, "value": "False"}],
+            "correctOption": { "id": 0 }
+        },
+        "prev": "23",
+        "next": "25"
+    },
+    "25": {
+        "id": "25",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$-3$$ __ $$-1.3$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 0 }
+        },
+        "prev": "24",
+        "next": "26"
+    },
+    "26": {
+        "id": "26",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$1.7$$ __ $$-3$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 1 }
+        },
+        "prev": "25",
+        "next": "27"
+    },
+    "27": {
+        "id": "27",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$5.75$$ __ $$5\\frac{3}{4}$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 2 }
+        },
+        "prev": "26",
+        "next": "28"
+    },
+    "28": {
+        "id": "28",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$5$$ __ $$-12$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 1 }
+        },
+        "prev": "27",
+        "next": "29"
+    },
+    "29": {
+        "id": "29",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$-3$$ __ $$0$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 0 }
+        },
+        "prev": "28",
+        "next": "30"
+    },
+    "30": {
+        "id": "30",
+        "sectionId": 2,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each pair of numbers, choose the comparison symbol that would make the inequality true.",
+            "question": "$$1\\frac{1}{4}$$ __ $$1.2$$",
+            "option": [{"id": 0, "value": "<"},{"id": 1, "value": ">"},{"id": 2, "value": "="}],
+            "correctOption": { "id": 1 }
+        },
+        "prev": "29",
+        "next": ""
+    }
+}

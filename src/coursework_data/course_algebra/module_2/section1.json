@@ -1,0 +1,139 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Linear Equations: The Addition Property",
+            "uri": "http://www.dropbox.com/s/a7n0lva3jspsaph/chapter%202%20-%20page%204.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Equation",
+            "body": "An <b>equation</b> is a mathematical statement that shows two expressions or quantities are equal."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Equation",
+            "uri": "http://www.dropbox.com/s/nmzup9dle9irkur/chapter%202%20-%20page%205.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Solutions to an Equation",
+            "body": "A <b>solution to an equation</b> is a value for a variable that makes an equation true."
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "a) Is $$3$$ a solution of the equation $$5z-3=6+2z$$ ? <br/>b) Determine wheather $$-2$$ os a solution of the equation $$7a+3=4(a-3)$$?",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/qehg03fb3101ytg/chapter%202%20-%20page%206.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Equivalent Equations",
+            "body": "Two or more equations with the same solution are said to be <b>Equivalent Equations</b>."
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Equivalent Equations",
+            "uri": "http://www.dropbox.com/s/tpzewvo05asn8gn/chapter%202%20-%20page%207.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Addition Property of Equality",
+            "body": "For all real numbers $$a$$, $$b$$, and $$c$$, if: <br/> $$a=b$$, then $$a+c=b+c$$ <br/>In other words, adding the same quantity to each side of an equation results in an equivalent equation."
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Addition Property of Equality",
+            "uri": "http://www.dropbox.com/s/4nh26jftnj0vvw3/chapter%202%20-%20page%208-9.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "a) Solve the equation $$x-18=-6$$ for $$x$$. ? <br/>b) Solve the equation $$-11=b+7$$ $$b$$?",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/di096cejt6afjfz/chapter%202%20-%20page%209-10.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "https://youtu.be/wogiYcNeSPU",
+            "videoType": "youtube"
+        },
+        "prev": "9",
+        "next": ""
+    }
+    
+}

@@ -1,0 +1,65 @@
+{
+     "0": {
+        "id": "0",
+        "sectionId": 2,
+        "type": "video",
+        "content": {
+            "title": "Linear Equations: The Multiplication Property",
+            "uri": "http://www.dropbox.com/s/qfp5o6kf1rpylld/chapter%202%20-%20page%2013.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 2,
+        "type": "theory",
+        "content": {
+            "title": "Multiplication Property of Equality",
+            "body": "For all real numbers $$a$$, $$b$$ and $$c$$, if: <br/> $$a=b$$, then $$ac=bc$$ <br/>In other words, multiplying each side of an equation by the same (non zero) quantity results in an equivalent equation."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 2,
+        "type": "video",
+        "content": {
+            "title": "Multiplication Property of Equality",
+            "uri": "http://www.dropbox.com/s/zwmclicdpeufn2a/chapter%202%20-%20page%2014-15.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 2,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "a) Solve the equation $$-w=19$$ for $$w$$ <br/>b) Solve the equation $$9a=45$$ for $$a$$ <br/>c) Solve the equation $$\\dfrac{c}{3}=12$$ for $$c$$ <br/>d) Solve the equation $$\\dfrac{3n}{5}=6$$ for $$c$$ <br/>e) Solve the equation $$\\dfrac{2}{5}m= \\dfrac{6}{15}$$ for $$c$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/hk34ezu3mjpohwy/chapter%202%20-%20page%2016-17.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 2,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "https://youtu.be/RgQKVVcYFLA",
+            "videoType": "youtube"
+        },
+        "prev": "3",
+        "next": ""
+    }
+}

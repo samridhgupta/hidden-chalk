@@ -1,0 +1,733 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Symbols, Variables, and Notation",
+            "uri": "http://www.dropbox.com/s/pj0v98fmsilpf02/chapter%201%20-%20page%205.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Variable",
+            "body": "A <b>variable</b> is a letter such as $$a$$, $$b$$, $$x$$ or $$y$$, that represents a mathematical quantity"
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Equalities and Inequalities",
+            "uri": "http://www.dropbox.com/s/rs9q7vga3z0bv4z/chapter%201%20-%20page%205-6.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Note",
+            "body": "The inequalities $$<$$ and $$>$$, from left to right, point to the smaller and bigger of the two quantities being compared respectively. For example, 5 < x means5 is smaller than x, and is read 5 is less than x, and x >4 means x is bigger than4, and is read x is greater than 4."
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Symbols for Addition, Subtraction, Multiplication and Division",
+            "uri": "http://www.dropbox.com/s/wl9388rn7n7qlf6/chapter%201%20-%20page%206.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Grouping Symbols",
+            "body": "The grouping symbols most frequently used in mathematics are parentheses ( ), brackets [ ], and braces { }. Grouping symbols are used for grouping numbers and organizing problems in algebra."
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Grouping Symbols",
+            "uri": "http://www.dropbox.com/s/ovd3w0uegulnc1q/chapter%201%20-%20page%207.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Exponents",
+            "body": "An exponents is a quantity that represents the amount of times a number is multiplied with itself."
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Exponents",
+            "uri": "http://www.dropbox.com/s/vbwatsnfts6khxx/chapter%201%20-%20page%208.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Exponent Example1",
+            "example": "Expand and Multiply $$7^2$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/4x9ux8ixtx7xx8z/chapter%201%20-%20page%209.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Exponent Example2",
+            "example": "Expand and Multiply $$3^3$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/1yiircyr021w90l/chapter%201%20-%20page%2010a.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "9",
+        "next": "11"
+    },
+    "11": {
+        "id": "0",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Exponent Example3",
+            "example": "Expand and Multiply $$2^4$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/8wjvb2ta9llscpj/chapter%201%20-%20page%2010b.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "10",
+        "next": "12"
+    },
+    "12": {
+        "id": "12",
+        "sectionId": 1,
+        "type": "theory",
+        "content": {
+            "title": "Order of Operations",
+            "body": "Mathematicians have devised a standard order of operations for calculations involving more than one arithmetic operation."
+        },
+        "prev": "11",
+        "next": "13"
+    },
+    "13": {
+        "id": "13",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Order of Operations",
+            "uri": "http://www.dropbox.com/s/twrmo0nmj86h7mg/chapter%201%20-%20page%2011-12.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "12",
+        "next": "14"
+    },
+    "14": {
+        "id": "14",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Rule: Order of Operations",
+            "uri": "http://www.dropbox.com/s/nenzdhhmuvg4fbd/chapter%201%20-%20page%2012.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "13",
+        "next": "15"
+    },
+    "15": {
+        "id": "15",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example 4: Order of Operations",
+            "example": "Simplify: $$6+3*2$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/x09k498ijn4zznn/chapter%201%20-%20page%2013.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "14",
+        "next": "16"
+    },
+    "16": {
+        "id": "16",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example5: Order of Operations",
+            "example": "Simplify: $$\\dfrac{35}{7*3}$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/cq6cmz7j82lczek/chapter%201%20-%20page%2014a.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "15",
+        "next": "17"
+    },
+    "17": {
+        "id": "17",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example6: Order of Operations",
+            "example": "Simplify: $$3[4+3(5+2*3)]$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/x09k498ijn4zznn/chapter%201%20-%20page%2013.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "16",
+        "next": "18"
+    },
+    "18": {
+        "id": "18",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example7: Order of Operations",
+            "example": "Simplify: $$\\dfrac{7+18}{3+3*4}$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/2e0ub9q0ga0i0uu/chapter%201%20-%20page%2015.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "17",
+        "next": "19"
+    },
+    "19": {
+        "id": "19",
+        "sectionId": 1,
+        "type": "example",
+        "content": {
+            "title": "Example8: Order of Operations",
+            "example": "Simplify: $$\\dfrac{5^2+2^5}{4-2^2}$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/7rpdizdtwkrwzb1/chapter%201%20-%20page%2016.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "18",
+        "next": "20"
+    },
+    "20": {
+        "id": "20",
+        "sectionId": 1,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "http://youtu.be/yzlSD0X-X98",
+            "videoType": "youtube"
+        },
+        "prev": "19",
+        "next": "21"
+    },
+     "21": {
+        "id": "21",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The sum of $$x$$ and $$6$$ is $$15$$",
+            "option": [{"id": 0, "value": "$$6+15=x$$"},{"id": 1, "value": "$$15-6=x$$"},{"id": 2, "value": "$$x+6=15$$"},{"id": 3, "value": "$$6x=15$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "20",
+        "next": "22"
+    },
+     "22": {
+        "id": "22",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The difference of $$x$$ and $$7$$ is $$9$$.",
+            "option": [{"id": 0, "value": "$$7-9=x$$"},{"id": 1, "value": "$$\\dfrac{7}{x}=9$$"},{"id": 2, "value": "$$x+7=9$$"},{"id": 3, "value": "$$x-7=9$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "21",
+        "next": "23"
+    },
+    "23": {
+        "id": "23",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The product of $$4$$ and $$y$$ is less than $$35.",
+            "option": [{"id": 0, "value": "$$4y<35$$"},{"id": 1, "value": "$$\\dfrac{4}{y}<35$$"},{"id": 2, "value": "$$4y>35$$"},{"id": 3, "value": ""}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "22",
+        "next": "24"
+    },
+    "24": {
+        "id": "24",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The product of $$8$$ and $$y$$ is greater than $$37$$.",
+            "option": [{"id": 0, "value": "$$8y<37$$"},{"id": 1, "value": "$$\\dfrac{8}{y}<37"},{"id": 2, "value": ""},{"id": 3, "value": ""}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "23",
+        "next": "24"
+    },
+    "25": {
+        "id": "25",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The product of $$6$$ and $$y$$ is less than or equql to the sum of $$y$$ and $$8$$.",
+            "option": [{"id": 0, "value": "$$6+y\\le8y$$"},{"id": 1, "value": "$$6+y\\le8+y$$"},{"id": 2, "value": "$$6y\\gey+8$$"},{"id": 3, "value": "$$6y\\ley+8$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "24",
+        "next": "26"
+    },
+     "26": {
+        "id": "26",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The product of $$8$$ and $$y$$ is greater than or equql to the difference of $$y$$ and $$5$$.",
+            "option": [{"id": 0, "value": "$$8y\\ley-5$$"},{"id": 1, "value": "$$8y\\gey-5$$"},{"id": 2, "value": "$$8+y\\gey-5$$"},{"id": 3, "value": "$$8+y\\ge5y$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "25",
+        "next": "27"
+    },
+     "27": {
+        "id": "27",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The quotient of $$x$$ and $$5$$ is equal to the sum of $$x$$ and $$3$$.",
+            "option": [{"id": 0, "value": "$$5x=x-3$$"},{"id": 1, "value": "$$\\dfrac{x}{5}=x+3$$"},{"id": 2, "value": "$$\\dfrac{x}{5}=x-3$$"},{"id": 3, "value": "$$5x=x+3$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "26",
+        "next": "28"
+    },
+     "28": {
+        "id": "28",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "For each written statement below, choose the correct mathematical statement.",
+            "question": "The quotient of $$x$$ and $$3$$ is eqial to the diffrence of $$x$$ and $$7$$.",
+            "option": [{"id": 0, "value": "$$3x=x-7$$"},{"id": 1, "value": "$$3x=x+7$$"},{"id": 2, "value": "$$\\dfrac{x}{3}=x-7$$"},{"id": 3, "value": "$$\\dfrac{x}{3}=x+7$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "27",
+        "next": "29"
+    },
+
+
+    "29": {
+        "id": "29",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$3\\cdot4+6$$",
+            "option": [{"id": 0, "value": "$$30$$"},{"id": 1, "value": "$$18$$"},{"id": 2, "value": "$$16$$"},{"id": 3, "value": "$$11$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "28",
+        "next": "30"
+    },
+    "30": {
+        "id": "30",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$5(6+2)$$",
+            "option": [{"id": 0, "value": "$$40$$"},{"id": 1, "value": "$$32$$"},{"id": 2, "value": "$$35$$"},{"id": 3, "value": "$$16$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "29",
+        "next": "31"
+    },
+    "31": {
+        "id": "31",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$7+3\\cdot8$$",
+            "option": [{"id": 0, "value": "$$80$$"},{"id": 1, "value": "$$18$$"},{"id": 2, "value": "$$31$$"},{"id": 3, "value": "$$39$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "30",
+        "next": "32"
+    },
+    "32": {
+        "id": "32",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$6\\cdot3+3\\cdot3$$",
+            "option": [{"id": 0, "value": "$$63$$"},{"id": 1, "value": "$$62$$"},{"id": 2, "value": "$$28$$"},{"id": 3, "value": "$$27$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "31",
+        "next": "33"
+    },
+    "33": {
+        "id": "33",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$6+4(2+6)$$",
+            "option": [{"id": 0, "value": "$$38$$"},{"id": 1, "value": "$$80$$"},{"id": 2, "value": "$$20$$"},{"id": 3, "value": "$$40$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "32",
+        "next": "34"
+    },
+    "34": {
+        "id": "34",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$(6+4)(9+2)$$",
+            "option": [{"id": 0, "value": "$$111$$"},{"id": 1, "value": "$$90$$"},{"id": 2, "value": "$$36$$"},{"id": 3, "value": "$$110$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "33",
+        "next": "35"
+    },
+    "35": {
+        "id": "35",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$32+3(7-4)+2$$",
+            "option": [{"id": 0, "value": "$$107$$"},{"id": 1, "value": "$$92$$"},{"id": 2, "value": "$$57$$"},{"id": 3, "value": "$$43$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "34",
+        "next": "36"
+    },
+    "36": {
+        "id": "36",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$3+4(2\\cdot5+5)-3$$",
+            "option": [{"id": 0, "value": "$$102$$"},{"id": 1, "value": "$$60$$"},{"id": 2, "value": "$$67$$"},{"id": 3, "value": "$$85$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "35",
+        "next": "37"
+    },
+    "37": {
+        "id": "37",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$12-48\\div12$$",
+            "option": [{"id": 0, "value": "$$3$$"},{"id": 1, "value": "$$4$$"},{"id": 2, "value": "$$8$$"},{"id": 3, "value": "$$6$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "36",
+        "next": "38"
+    },
+    "38": {
+        "id": "38",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$2\\cdot6+16\\div8+7\\cdot3$$",
+            "option": [{"id": 0, "value": "$$27$$"},{"id": 1, "value": "$$36$$"},{"id": 2, "value": "$$35$$"},{"id": 3, "value": "$$28$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "37",
+        "next": "39"
+    },
+    "39": {
+        "id": "39",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$(3+4)^2$$",
+            "option": [{"id": 0, "value": "$$49$$"},{"id": 1, "value": "$$14$$"},{"id": 2, "value": "$$7$$"},{"id": 3, "value": "$$21$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "38",
+        "next": "40"
+    },
+    "40": {
+        "id": "40",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$3^3+2^3$$",
+            "option": [{"id": 0, "value": "$$17$$"},{"id": 1, "value": "$$35$$"},{"id": 2, "value": "$$125$$"},{"id": 3, "value": "$$31$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "39",
+        "next": "41"
+    },
+    "41": {
+        "id": "41",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$4\\cdot5^2+3\\cdot10+7$$",
+            "option": [{"id": 0, "value": "$$137$$"},{"id": 1, "value": "$$437$$"},{"id": 2, "value": "$$4010$$"},{"id": 3, "value": "$$228$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "40",
+        "next": "42"
+    },
+    "42": {
+        "id": "42",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$3\\cdot5^3+2\\cdot5^2+6\\cdot5+10$$",
+            "option": [{"id": 0, "value": "$$475$$"},{"id": 1, "value": "$$460$$"},{"id": 2, "value": "$$525$$"},{"id": 3, "value": "$$465$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "41",
+        "next": "43"
+    },
+    "43": {
+        "id": "43",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$20-3(2\\cdot5-8)$$",
+            "option": [{"id": 0, "value": "$$34$$"},{"id": 1, "value": "$$26$$"},{"id": 2, "value": "$$14$$"},{"id": 3, "value": "$$38$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "42",
+        "next": "44"
+    },
+    "44": {
+        "id": "44",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$5[4+5(2\\cdot7-4)]$$",
+            "option": [{"id": 0, "value": "$$1000$$"},{"id": 1, "value": "$$10,000$$"},{"id": 2, "value": "$$270$$"},{"id": 3, "value": "$$2700$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "43",
+        "next": "45"
+    },
+    "45": {
+        "id": "45",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$3[5+3(2\\cdot8-6)]$$",
+            "option": [{"id": 0, "value": "$$240$$"},{"id": 1, "value": "$$105$$"},{"id": 2, "value": "$$264$$"},{"id": 3, "value": "$$110$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "44",
+        "next": "46"
+    },
+    "46": {
+        "id": "46",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$6(9-5)+4(2+3)$$",
+            "option": [{"id": 0, "value": "$$54$$"},{"id": 1, "value": "$$45$$"},{"id": 2, "value": "$$55$$"},{"id": 3, "value": "$$44$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "45",
+        "next": "47"
+    },
+    "47": {
+        "id": "47",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$2(3\\cdot8-20)+72\\cdot3+1)$$",
+            "option": [{"id": 0, "value": "$$56$$"},{"id": 1, "value": "$$57$$"},{"id": 2, "value": "$$47$$"},{"id": 3, "value": "$$52$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "46",
+        "next": "48"
+    },
+    "48": {
+        "id": "48",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$2(4\\cdot2+3)+6(8\\cdot2-6)$$",
+            "option": [{"id": 0, "value": "$$82$$"},{"id": 1, "value": "$$80$$"},{"id": 2, "value": "$$76$$"},{"id": 3, "value": "$$66$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "47",
+        "next": "49"
+    },
+    "49": {
+        "id": "49",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$4^3+3^4\\div3^2-2^2$$",
+            "option": [{"id": 0, "value": "$$12$$"},{"id": 1, "value": "$$67$$"},{"id": 2, "value": "$$69$$"},{"id": 3, "value": "$$83$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "47",
+        "next": "49"
+    },
+    "50": {
+        "id": "50",
+        "sectionId": 1,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify each expression using the order of operations.",
+            "question": "$$4^2+6^2\\div18+2^3$$",
+            "option": [{"id": 0, "value": "$$24$$"},{"id": 1, "value": "$$39$$"},{"id": 2, "value": "$$13$$"},{"id": 3, "value": "$$26$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "46",
+        "next": "48"
+    }
+}

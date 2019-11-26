@@ -1,0 +1,245 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Inequalities",
+            "uri": "http://www.dropbox.com/s/uln422i5bq9kf9j/chapter%202%20-%20page%2050.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 5,
+        "type": "theory",
+        "content": {
+            "title": "Linear Inequality",
+            "body": "A <b>linear inequality in one variable</b> is two or more terms or expressions separated by one or more of the following inequalities: <br/> $$<$$, $$>$$, $$\\le$$, $$\\ge$$ or $$\\ne$$. <br/> For Example: $$x>3$$, $$9\\le a-7$$ and $$z\\ne8$$."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 5,
+        "type": "theory",
+        "content": {
+            "title": "Graphing Inequalities and their Solutions",
+            "body": "We can <b>graph an inequality</b> by representing all of its <b>solutions</b> on a <b>number line</b>."
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Inequalities",
+            "uri": "http://www.dropbox.com/s/j6n8ctfz97jj2eo/chapter%202%20-%20page%2051-52.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 5,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "Graph the following inequalities. <br/> a) $$y>1$$ <br/> b) $$-2\\ge b$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/8p96rtq5ik37bxf/chapter%202%20-%20page%2053-54.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 5,
+         "type": "theory",
+        "content": {
+            "title": "Addition Property for Inequalities",
+            "body": "For all real numbers $$a$$, $$b$$, and $$c$$, if:<br/> * $$a<b$$, then $$a+c<b+c$$ <br/> * $$a<b$$, then $$a-c<b-c$$ <br/> * $$a>b$$, then $$a+c>b+c$$ <br/> * $$a>b$$, then $$a-c>b-c$$ <br/><br/>In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set. In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.<br/><br/> <b>Note:</b> The Property hold for $$\\le$$ and \\ge as well."
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Addition Property for Inequalities",
+            "uri": "http://www.dropbox.com/s/tajg5yzb1fr938l/chapter%202%20-%20page%2055.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 5,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "Solve and graph the following inequalities <br/> a) $$a+6>1$$ <br/> b) $$9\\le m+11$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/yo1plsa6y12z0hc/chapter%202%20-%20page%2056.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 5,
+         "type": "theory",
+        "content": {
+            "title": "Multiplication Property for Inequalities",
+            "body": "For all real numbers $$a$$, $$b$$, and $$c$$, if: <br/><b>When $$c$$ is positive</b><br/> * $$a<b$$, then $$ac<bc$$ <br/> * $$a<b$$, then $$ac>bc$$ <br/><b>When $$c$$ is negative</b> <br/> * $$a<b$$, then $$ac>bc$$ <br/> * $$a>b$$, then $$ac>bc$$ <br/><br/>In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set. In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.In other words, adding or subtracting the same value to an inequality will not change the inequality or it's solution set.<br/><br/> <b>Note:</b> The Property hold for $$\\le$$ and \\ge as well. <br/>In other words, multiplying or dividing both sides of an inequality by a positive number will not change the inequality or its solution set but when we multiply or divide an inequality by a negative number we must reverse the direction of the inequality symbol so that we we do not change the inequality or its solution set. <b>Note</b> The property Hold for $$\\l$$ and $$\\ge$$ as well."
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Multiplication Property for Inequalities",
+            "uri": "http://www.dropbox.com/s/lpephdpm1lyc1ly/chapter%202%20-%20page%2057-59.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": 5,
+        "type": "example",
+        "content": {
+            "title": "Example 3",
+            "example": "Solve and graph the following inequalities <br/> a) $$3n<12$$ <br/> b) $$-6w\\le54$$ <br/> c) $$\\dfrac{T}{3}>5$$ <br/> d) $$-\\dfrac{r}{2}\\ge6$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/99k0hzo7as9y0we/chapter%202%20-%20page%2060-61.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "9",
+        "next": "11"
+    },
+    "11": {
+        "id": "11",
+        "sectionId": 5,
+         "type": "theory",
+        "content": {
+            "title": "Using Combining Like Terms to Solve Linear Inequalities",
+            "body": "When using the <b>addition and multiplication properties of inequalities</b> to solve linear inequalities we may also have to <b>combine all like terms</b>."
+        },
+        "prev": "10",
+        "next": "12"
+    },
+    "12": {
+        "id": "12",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Combining Like Terms to Solve Linear Inequalities",
+            "uri": "http://www.dropbox.com/s/l38a9vlaun6k05w/chapter%202%20-%20page%2062-63.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "11",
+        "next": "13"
+    },
+    "13": {
+        "id": "13",
+        "sectionId": 5,
+        "type": "example",
+        "content": {
+            "title": "Example 4",
+            "example": "Solve and graph the following inequalities <br/> a) $$7x-7<6x+3$$ <br/> b) $$6x-9x\\ge-12$$ <br/> c) $$10x+4\\ge4x-2$$ <br/> d) $$4x-3>8x+17$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/1qsi8bd9o3ewgd2/chapter%202%20-%20page%2064-65.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "12",
+        "next": "14"
+    }
+    ,
+    "14": {
+        "id": "14",
+        "sectionId": 5,
+         "type": "theory",
+        "content": {
+            "title": " Using The Distributive Property to Solve Linear Inequalities",
+            "body": "Before using the addition and multiplication properties of inequalities and Combining Like Terms to solve linear inequalities we may also have to use The Distributive Property."
+        },
+        "prev": "13",
+        "next": "15"
+    },
+    "15": {
+        "id": "15",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "The Distributive Property to Solve Linear Inequalities",
+            "uri": "http://www.dropbox.com/s/j2ojohjmzxxahm7/chapter%202%20-%20page%2066-67.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "14",
+        "next": "16"
+    },
+    "16": {
+        "id": "13",
+        "sectionId": 5,
+        "type": "example",
+        "content": {
+            "title": "Example 5",
+            "example": "Solve and graph the following inequalities <br/> a) $$704x\\le15(x+1)$$ <br/> b) $$-8(2-x)\\le5(x-2)$$ ",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/cm243l627zqq1ay/chapter%202%20-%20page%2068.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "15",
+        "next": "17"
+    },
+    "17": {
+        "id": "17",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 1",
+            "uri": "https://youtu.be/0X-bMeIN53I",
+            "videoType": "youtube"
+        },
+        "prev": "16",
+        "next": "18"
+    },
+    "18": {
+        "id": "18",
+        "sectionId": 5,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 2",
+            "uri": "https://youtu.be/8hhewFQ_K0w",
+            "videoType": "youtube"
+        },
+        "prev": "17",
+        "next": ""
+    }
+}

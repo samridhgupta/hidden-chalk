@@ -1,0 +1,143 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": 3,
+        "type": "video",
+        "content": {
+            "title": "Linear Equations - Combining Properties",
+            "uri": "http://www.dropbox.com/s/i37xsustok799af/chapter%202%20-%20page%2021.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 3,
+        "type": "theory",
+        "content": {
+            "title": "Using the Addition and Multiplication Property to Solve Linear Equations.",
+            "body": "A linear equation in one variable is any equation that can be put in the form <br/> $$ax+b=c$$ <br/> where $$a$$, $$b$$, and $$c$$, are real numbers and a is not zero."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 3,
+        "type": "video",
+        "content": {
+            "title": "Using the Addition and Multiplication Property to Solve Linear Equations.",
+            "uri": "http://www.dropbox.com/s/psfgyr34xu6ketu/chapter%202%20-%20page%2022.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 3,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "a) Solve the equation $$15=-6-7a$$ for $$a$$ <br/>b) Solve the equation $$7=\\dfrac{x}{4}+1$$ for $$x$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/tp9cnzvonnwwjh7/chapter%202%20-%20page%2023.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 3,
+        "type": "theory",
+        "content": {
+            "title": "Using Combining Like Terms to Solve Linear Equations",
+            "body": "Before we can use the <b>addition and multiplication properties of equality</b> to solve linear equations we must first <b>combine all like terms</b>."
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 3,
+        "type": "video",
+        "content": {
+            "title": "Combining Like Terms to Solve Linear Equations",
+            "uri": "http://www.dropbox.com/s/0rr8wvax7qc263j/chapter%202%20-%20page%2024-25.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "3",
+        "sectionId": 3,
+        "type": "example",
+        "content": {
+            "title": "Example 2",
+            "example": "a) Solve the equation $$3y-8y=20$$ for $$y$$ <br/>b) Solve the equation $$7-r-r=-1$$ for $$r$$ <br/>c) Solve the equation $$4x-9=-x-10$$ for $$x$$ <br/>d) Solve the equation $$\\dfrac{1}{5}z-\\dfrac{1}{10}z=\\dfrac{3}{5}$$ for $$z$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/7gm5t0s9icfmn73/chapter%202%20-%20page%2026-27.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 3,
+        "type": "theory",
+        "content": {
+            "title": "Using the Distributive Property to Solve Linear Equations",
+            "body": "Before we can use the <b>addition and multiplication properties of equality</b> to solve linear equations we must first <b>combine all like terms</b>."
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 3,
+        "type": "video",
+        "content": {
+            "title": "Distributive Property to Solve Linear Equations",
+            "uri": "http://www.dropbox.com/s/eid00puxi6e3qyj/chapter%202%20-%20page%2028-30.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": 3,
+        "type": "example",
+        "content": {
+            "title": "Example 3",
+            "example": "a) Solve the equation $$-4(w+5)$$ for $$w$$ <br/>b) Solve the equation $$4(r-3)-3(r-4)$$ for $$r$$ <br/>c) Solve the equation $$3[4x-(x-2)]=6(x-3)$$ for $$x$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/qctk8hxz3sn530h/chapter%202%20-%20page%2031-33.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": 3,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "https://youtu.be/3KfhXxUDG-Y",
+            "videoType": "youtube"
+        },
+        "prev": "9",
+        "next": ""
+    }
+}

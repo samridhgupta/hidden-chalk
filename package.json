@@ -26,6 +26,7 @@
     "react-native-aws-cognito": "https://github.com/samridhgupta/react-native-aws-cognito.git",
     "react-native-aws-s3": "https://github.com/samridhgupta/react-native-aws-s3.git",
     "react-native-drawer": "^2.5.1",
+    "react-native-event-listeners": "^1.0.3",
     "react-native-fs": "^2.16.2",
     "react-native-gesture-handler": "^1.5.0",
     "react-native-iap": "^4.3.0",

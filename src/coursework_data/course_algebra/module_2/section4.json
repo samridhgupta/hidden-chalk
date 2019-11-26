@@ -1,0 +1,116 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": 4,
+        "type": "video",
+        "content": {
+            "title": "Literal Equations and Formulas",
+            "uri": "http://www.dropbox.com/s/h6uuvybughsnala/chapter%202%20-%20page%2037.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": 4,
+        "type": "theory",
+        "content": {
+            "title": "Using the Addition and Multiplication Properties of Equality to Solve Literal Equations",
+            "body": "A <b>literal equation</b> or <b>formula</b> is an equation that contains more than one variable."
+        },
+        "prev": "0",
+        "next": "2"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": 4,
+        "type": "video",
+        "content": {
+            "title": "Addition and Multiplication Properties of Equality to Solve Literal Equations",
+            "uri": "http://www.dropbox.com/s/zwmclicdpeufn2a/chapter%202%20-%20page%2014-15.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": 4,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "a) Solve the equation $$a+10=b$$ for $$a$$ <br/>b) Solve the equation $$3w-z=9$$ for $$w$$ <br/>c) Solve the equation $$V=Iwh$$ for $$h$$ <br/>d) Solve the equation $$ax+by=c$$ for $$y$$ <br/>e) Solve the equation $$3x+5y=20$$ for $$y$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/k6l1i1rdm06yxus/chapter%202%20-%20page%2041-42.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": 4,
+        "type": "theory",
+        "content": {
+            "title": "Using the Distributive Property to Solve Literal Equations",
+            "body": "If an equation contains <b>parentheses</b>, then the use of the <b>distributive property</b> is required. The distributive properly is used to remove parentheses from expressions that contains variables."
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": 4,
+        "type": "video",
+        "content": {
+            "title": "Using the Distributive Property to Solve Literal Equations",
+            "uri": "http://www.dropbox.com/s/saw98ita35qwja9/chapter%202%20-%20page%2043-44.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": 4,
+        "type": "example",
+        "content": {
+            "title": "Example 1",
+            "example": "a) Solve the equation $$n=r(a+b)$$ for $$r$$ <br/>b) Solve the equation $$z=4(x-3y)$$ for $$y$$ <br/>c) Solve the equation $$S=a+(n-1)d$$ for $$n$$.",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/h07szwr753yk1zf/chapter%202%20-%20page%2045-46.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": 2,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 1",
+            "uri": "https://youtu.be/aWCptiGGyIU",
+            "videoType": "youtube"
+        },
+        "prev": "6",
+        "next": ""
+    },
+    "8": {
+        "id": "8",
+        "sectionId": 2,
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial 2",
+            "uri": "https://youtu.be/qNGBuQB89p8",
+            "videoType": "youtube"
+        },
+        "prev": "7",
+        "next": ""
+    }
+}

@@ -1,0 +1,625 @@
+{
+    "0": {
+        "id": "0",
+        "sectionId": "2",
+        "type": "video",
+        "content": {
+            "title": "Addition and Subtraction of Real Numbers",
+            "uri": "http://www.dropbox.com/s/c5youv2v3sz7izd/chapter%201%20-%20page%2039.mp4?dl=0",
+            "videoType": "proprietary"
+        },
+        "prev": "",
+        "next": "1"
+    },
+    "1": {
+        "id": "1",
+        "sectionId": "2",
+        "type": "theory",
+        "content": {
+            "title": "Additive Inverse Property",
+            "body": "For every real number $a$, there exists a real number $-a$, such that: <br/> $$a+(-a)=0$$ and $$(-a)+a=0$$ <br/>In other words, any number added to its opposite is zero."
+        },
+        "prev": "0",
+        "next": "1"
+    },
+    "2": {
+        "id": "2",
+        "sectionId": "2",
+        "type": "theory",
+        "content": {
+            "title": "Note",
+            "body": "<b>To Add Real Numbers:</b><br/>* If the numbers have the same sign, add their values and keep their sign.<br/>* If the numbers have different signs, find the difference between their values and keep the sign of the largest number."
+        },
+        "prev": "1",
+        "next": "3"
+    },
+    "3": {
+        "id": "3",
+        "sectionId": "2",
+        "type": "example",
+        "content": {
+            "title": "Example1: ",
+            "example": "Add the following values. <br/>a) $-3+4$ <br/><br/>b) $-7 + (-13)$ <br/><br/>c) $5 + (-7)$ <br/><br/>d) $-7.8+3.4$ <br/><br/>e) $\\dfrac{1}{2} + \\dfrac{-3}{4}$ <br/><br/>f) $-8+8$ <br/><br/>g) $12+0$ <br/><br/>h) $0+\\dfrac{2}{7}$ <br/><br/>i) $\\dfrac{3}{11} + \\dfrac{-3}{11}$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/vharsksyng0x7sh/chapter%201%20-%20page%2041-42.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "2",
+        "next": "4"
+    },
+    "4": {
+        "id": "4",
+        "sectionId": "2",
+        "type": "theory",
+        "content": {
+            "title": "Commutative Property of Addition",
+            "body": "For all real numbers $$a$$ and $$b$$,  $$a+b = b+a$$ <br/><br/>In other words, changing the order of the numbers in an addition problem does not change its results, for example: <br/>  $$2+3=5$$ and <br/>  $$3+2=5$$"
+        },
+        "prev": "3",
+        "next": "5"
+    },
+    "5": {
+        "id": "5",
+        "sectionId": "2",
+        "type": "theory",
+        "content": {
+            "title": "Associative Property of Addition",
+            "body": "For all real numbers $$a$$, $$b$$ and $$c$$, <br/> $$(a+b)+c = a+(b+a)$$ <br/><br/>In other words, changing the grouping of numbers in an addition problem does not change its result."
+        },
+        "prev": "4",
+        "next": "6"
+    },
+    "6": {
+        "id": "6",
+        "sectionId": "2",
+        "type": "example",
+        "content": {
+            "title": "Example2: ",
+            "example": "Show that: <br/>a) $$(4+5)+(-3) = 4+(5+(-3))$$ ",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/ox7vda3gy7vcas2/chapter%201%20-%20page%2044.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "5",
+        "next": "7"
+    },
+    "7": {
+        "id": "7",
+        "sectionId": "2",
+        "type": "theory",
+        "content": {
+            "title": "Note",
+            "body": "<b>To Subtract Real Numbers:</b><br/>* When subtracting one real number from another we re-write the subtraction as addition and add the opposite of the number being subtracted, then use the rules for addition of real numbers.<br/>* In other words, 'subtracting a number is the same as adding its opposite'.<br/> $$a-b = a+(-b)$$ <br/>Subtracting $$b$$, is the same as adding the opposite of $$b$$"
+        },
+        "prev": "6",
+        "next": "8"
+    },
+    "8": {
+        "id": "8",
+        "sectionId": "2",
+        "type": "example",
+        "content": {
+            "title": "Example3: ",
+            "example": "Find the difference: <br/>a) $$5-3$$ <br/>b) $$7-12$$ <br/>c) $$-3-6$$ <br/>d) $$10-(-3)$$ <br/>e) $$-7-(-1)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/ugz1my6ob1x26m4/chapter%201%20-%20page%2045-46.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "7",
+        "next": "9"
+    },
+    "9": {
+        "id": "9",
+        "sectionId": "2",
+        "type": "example",
+        "content": {
+            "title": "Example4: ",
+            "example": "Simplify $$-4-(-3)-(-10)$$",
+            "solution": {
+                "type": "video",
+                "uri": "http://www.dropbox.com/s/hl817eerthl997x/chapter%201%20-%20page%2046-47.mp4?dl=0",
+                "videoType": "proprietary"
+            }
+        },
+        "prev": "8",
+        "next": "10"
+    },
+    "10": {
+        "id": "10",
+        "sectionId": "2",
+        "type": "video",
+        "content": {
+            "title": "Section Tutorial",
+            "uri": "http://youtu.be/XY2-NSVKRoY",
+            "videoType": "youtube"
+        },
+        "prev": "9",
+        "next": "11"
+    },
+    "11": {
+        "id": "11",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate the property of addition represented by each equation:",
+            "question": "$$7+(-2)=(-2)+7$$",
+            "option": [{"id": 0, "value": "Commutative Property"},{"id": 1, "value": "Associative Property"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "10",
+        "next": "12"
+    },
+    "12": {
+        "id": "12",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate the property of addition represented by each equation:",
+            "question": "$$(4+8)+(-2)=4+[8+(-2)]$$",
+            "option": [{"id": 0, "value": "Commutative Property"},{"id": 1, "value": "Associative Property"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "11",
+        "next": "13"
+    },
+    "13": {
+        "id": "13",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate the property of addition represented by each equation:",
+            "question": "$$(-3+9)+6=-3(9+6)$$",
+            "option": [{"id": 0, "value": "Commutative Property"},{"id": 1, "value": "Associative Property"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "12",
+        "next": "14"
+    },
+    "14": {
+        "id": "11",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Indicate the property of addition represented by each equation:",
+            "question": "$$-a+(-b)=-b+(-a)$$",
+            "option": [{"id": 0, "value": "Commutative Property"},{"id": 1, "value": "Associative Property"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "13",
+        "next": "15"
+    },
+    "15": {
+        "id": "15",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$23+(-2)$$",
+            "option": [{"id": 0, "value": "$$-21$$"},{"id": 1, "value": "$$25$$"},{"id": 2, "value": "$$-25$$"},{"id": 3, "value": "$$21$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "14",
+        "next": "16"
+    },
+    "16": {
+        "id": "16",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-7+(-7)$$",
+            "option": [{"id": 0, "value": "$$-14$$"},{"id": 1, "value": "$$0$$"},{"id": 2, "value": "$$14$$"},{"id": 3, "value": "$$49$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "15",
+        "next": "17"
+    },
+    "17": {
+        "id": "17",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-10+4$$",
+            "option": [{"id": 0, "value": "$$6$$"},{"id": 1, "value": "$$14$$"},{"id": 2, "value": "$$-6$$"},{"id": 3, "value": "$$-14$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "16",
+        "next": "18"
+    },
+    "18": {
+        "id": "18",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$(-8)+(-3)$$",
+            "option": [{"id": 0, "value": "$$5$$"},{"id": 1, "value": "$$-5$$"},{"id": 2, "value": "$$-11$$"},{"id": 3, "value": "$$11$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "17",
+        "next": "19"
+    },
+    "19": {
+        "id": "19",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-13+13$$",
+            "option": [{"id": 0, "value": "$$26$$"},{"id": 1, "value": "$$0$$"},{"id": 2, "value": "$$-26$$"},{"id": 3, "value": "$$-169$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "18",
+        "next": "20"
+    },
+    "20": {
+        "id": "20",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-0.8+3$$",
+            "option": [{"id": 0, "value": "$$2.2$$"},{"id": 1, "value": "$$3.8$$"},{"id": 2, "value": "$$-2.2$$"},{"id": 3, "value": "$$-3.8$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "19",
+        "next": "21"
+    },
+    "21": {
+        "id": "21",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$10+15$$",
+            "option": [{"id": 0, "value": "$$-25$$"},{"id": 1, "value": "$$25$$"},{"id": 2, "value": "$$5$$"},{"id": 3, "value": "$$-5$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "20",
+        "next": "22"
+    },
+    "22": {
+        "id": "22",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$10+(-15)$$",
+            "option": [{"id": 0, "value": "$$5$$"},{"id": 1, "value": "$$-5$$"},{"id": 2, "value": "$$-25$$"},{"id": 3, "value": "$$23$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "21",
+        "next": "23"
+    },
+    "23": {
+        "id": "23",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-10+15$$",
+            "option": [{"id": 0, "value": "$$5$$"},{"id": 1, "value": "$$-5$$"},{"id": 2, "value": "$$25$$"},{"id": 3, "value": "$$-25$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "22",
+        "next": "24"
+    },
+    "24": {
+        "id": "24",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the sum:",
+            "question": "$$-10+(-15)$$",
+            "option": [{"id": 0, "value": "$$25$$"},{"id": 1, "value": "$$-5$$"},{"id": 2, "value": "$$-25$$"},{"id": 3, "value": "$$5$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "23",
+        "next": "25"
+    },
+    "25": {
+        "id": "25",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$17+(-8)+(-17)+8$$",
+            "option": [{"id": 0, "value": "$$0$$"},{"id": 1, "value": "$$50$$"},{"id": 2, "value": "$$-50$$"},{"id": 3, "value": "$$9$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "24",
+        "next": "26"
+    },
+    "26": {
+        "id": "26",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$103+(-83)+(-40)+13$$",
+            "option": [{"id": 0, "value": "$$53$$"},{"id": 1, "value": "$$-7$$"},{"id": 2, "value": "$$-53$$"},{"id": 3, "value": "$$7$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "25",
+        "next": "27"
+    },
+    "27": {
+        "id": "27",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$(-27)+25.36+27$$",
+            "option": [{"id": 0, "value": "$$79.36$$"},{"id": 1, "value": "$$-25.36$$"},{"id": 2, "value": "$$25.36$$"},{"id": 3, "value": "$$-79.36$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "26",
+        "next": "28"
+    },
+    "28": {
+        "id": "28",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$-65+9+(-10)+(-20)$$",
+            "option": [{"id": 0, "value": "$$100$$"},{"id": 1, "value": "$$87$$"},{"id": 2, "value": "$$-86$$"},{"id": 3, "value": "$$-100$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "27",
+        "next": "29"
+    },
+    "29": {
+        "id": "29",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-25-6$$",
+            "option": [{"id": 0, "value": "$$-31$$"},{"id": 1, "value": "$$19$$"},{"id": 2, "value": "$$31$$"},{"id": 3, "value": "$$-19$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "28",
+        "next": "30"
+    },
+    "30": {
+        "id": "30",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$22-(-11)$$",
+            "option": [{"id": 0, "value": "$$33$$"},{"id": 1, "value": "$$-33$$"},{"id": 2, "value": "$$-43$$"},{"id": 3, "value": "$$32$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "29",
+        "next": "31"
+    },
+    "31": {
+        "id": "31",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-31-32$$",
+            "option": [{"id": 0, "value": "$$-64$$"},{"id": 1, "value": "$$0$$"},{"id": 2, "value": "$$64$$"},{"id": 3, "value": "$$32$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "30",
+        "next": "32"
+    },
+    "32": {
+        "id": "32",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$41-(-41)$$",
+            "option": [{"id": 0, "value": "$$-82$$"},{"id": 1, "value": "$$82$$"},{"id": 2, "value": "$$0$$"},{"id": 3, "value": "$$80$$"}],
+            "correctOption": {"id": 1 }
+        },
+        "prev": "31",
+        "next": "33"
+    },
+    "33": {
+        "id": "33",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-27-(-3)$$",
+            "option": [{"id": 0, "value": "$$-30$$"},{"id": 1, "value": "$$-24$$"},{"id": 2, "value": "$$24$$"},{"id": 3, "value": "$$30$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "32",
+        "next": "34"
+    },
+    "34": {
+        "id": "34",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-50-(-1)$$",
+            "option": [{"id": 0, "value": "$$-51$$"},{"id": 1, "value": "$$49$$"},{"id": 2, "value": "$$-49$$"},{"id": 3, "value": "$$-51$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "33",
+        "next": "35"
+    },
+    "35": {
+        "id": "35",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$12-3$$",
+            "option": [{"id": 0, "value": "$$-9$$"},{"id": 1, "value": "$$15$$"},{"id": 2, "value": "$$9$$"},{"id": 3, "value": "$$-15$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "34",
+        "next": "36"
+    },
+    "36": {
+        "id": "36",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-12-3$$",
+            "option": [{"id": 0, "value": "$$15$$"},{"id": 1, "value": "$$-15$$"},{"id": 2, "value": "$$9$$"},{"id": 3, "value": "$$-9$$"}],
+            "correctOption": {"id": 1}
+        },
+        "prev": "35",
+        "next": "37"
+    },
+    "37": {
+        "id": "37",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$12-(-3)$$",
+            "option": [{"id": 0, "value": "$$-15$$"},{"id": 1, "value": "$$9$$"},{"id": 2, "value": "$$15$$"},{"id": 3, "value": "$$-9$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "36",
+        "next": "38"
+    },
+    "38": {
+        "id": "38",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Determine the difference:",
+            "question": "$$-12-(-3)$$",
+            "option": [{"id": 0, "value": "$$9$$"},{"id": 1, "value": "$$15$$"},{"id": 2, "value": "$$-15$$"},{"id": 3, "value": "$$-9$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "37",
+        "next": "39"
+    },
+    "39": {
+        "id": "39",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$-7+(-2)-1+8$$",
+            "option": [{"id": 0, "value": "$$-2$$"},{"id": 1, "value": "$$18$$"},{"id": 2, "value": "$$2$$"},{"id": 3, "value": "$$-18$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "38",
+        "next": "40"
+    },
+    "40": {
+        "id": "39",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$-6+(-2)-6+2$$",
+            "option": [{"id": 0, "value": "$$-12$$"},{"id": 1, "value": "$$12$$"},{"id": 2, "value": "$$0$$"},{"id": 3, "value": "$$-16$$"}],
+            "correctOption": {"id": 0}
+        },
+        "prev": "39",
+        "next": "41"
+    },
+    "41": {
+        "id": "41",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$4-13-7$$",
+            "option": [{"id": 0, "value": "$$2$$"},{"id": 1, "value": "$$16$$"},{"id": 2, "value": "$$-2$$"},{"id": 3, "value": "$$-16$$"}],
+            "correctOption": {"id": 3}
+        },
+        "prev": "40",
+        "next": "42"
+    },
+    "42": {
+        "id": "42",
+        "sectionId": 3,
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "Question",
+            "questionDescription": "Simplify as much as possible:",
+            "question": "$$-7+(-2)-1+8$$",
+            "option": [{"id": 0, "value": "$$0$$"},{"id": 1, "value": "$$26$$"},{"id": 2, "value": "$$8$$"},{"id": 3, "value": "$$-8$$"}],
+            "correctOption": {"id": 2}
+        },
+        "prev": "41",
+        "next": "43"
+    }
+}

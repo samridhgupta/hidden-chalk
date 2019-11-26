@@ -1,0 +1,59 @@
+{
+     "0": {
+        "id": "0",
+        "sectionId": "0",
+        "type": "video",
+        "content": {
+            "title": "",
+            "uri": "",
+            "videoType": "proprietary | youtube"
+        },
+        "prev": "",
+        "next": "1"
+    },
+
+    "1": {
+        "id": "1",
+        "sectionId": "0",
+        "type": "theory",
+        "content": {
+            "title": "",
+            "body": ""
+        },
+        "prev": "0",
+        "next": "2"
+    },
+
+     "2": {
+        "id": "2",
+        "sectionId": "0",
+        "type": "example",
+        "content": {
+            "title": "",
+            "example": "",
+            "solution": {
+                "type": "video",
+                "uri": "",
+                "videoType": "proprietary | youtube"
+            }
+        },
+        "prev": "1",
+        "next": "3"
+    },
+
+    "3": {
+        "id": "3",
+        "sectionId": "0",
+        "type": "question",
+        "problemSetId": "",
+        "content": {
+            "title": "",
+            "questionDescription": "",
+            "question": "",
+            "option": [{"id": 0, "value": "$$$$"},{"id": 1, "value": "$$$$"},{"id": 2, "value": "$$$$"},{"id": 3, "value": "$$$$"}],
+            "correctOption": {"id": }
+        },
+        "prev": "2",
+        "next": "4"
+    }
+}
