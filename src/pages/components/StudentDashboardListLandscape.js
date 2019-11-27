@@ -49,7 +49,11 @@ class StudentDashboardListLandscape extends Component {
           alignItems: 'flex-start',
         }}>
         {rowData.isNew ? (
-          <View style={{flexDirection: 'row', alignItems: 'center'}}>
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+            }}>
             <IconMaterial name="new-box" size={25} color="#1d88ab" />
             <Text
               style={{
@@ -62,7 +66,12 @@ class StudentDashboardListLandscape extends Component {
             </Text>
           </View>
         ) : (
-          <Text style={{fontSize: 18, color: '#888', fontWeight: '600'}}>
+          <Text
+            style={{
+              fontSize: 18,
+              color: '#888',
+              fontWeight: '600',
+            }}>
             {rowData.name}
           </Text>
         )}
@@ -75,14 +84,70 @@ class StudentDashboardListLandscape extends Component {
           }}>
           {rowData.description}
         </Text>
+        <TouchableView
+          style={{
+            backgroundColor: '#1dab7d',
+            flexDirection: 'row',
+            alignItems: 'center',
+            marginTop: 10,
+            paddingHorizontal: 8,
+            borderRadius: 8,
+          }}
+          onPress={() => {
+            this.onLearnMorePressed(rowData);
+          }}>
+          <Text
+            style={{
+              fontSize: 15,
+              color: '#EEE',
+              fontWeight: '600',
+              padding: 5,
+            }}>
+            Learn More
+          </Text>
+          <IconIonicons
+            name="md-arrow-dropright"
+            size={30}
+            color="#EEE"
+            style={{paddingTop: 2}}
+          />
+        </TouchableView>
       </View>
     );
   }
 
   renderProgress(rowData) {
     return (
-      <View style={{padding: 15, borderTopColor: '#EEE', borderTopWidth: 1}}>
-        {!rowData.studentCourse.isUnlocked ? (
+      <View
+        style={{
+          padding: 15,
+          borderTopColor: '#EEE',
+          borderTopWidth: 1,
+        }}>
+        {!rowData.isFree ? (
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              justifyContent: 'flex-end',
+              paddingRight: 5,
+            }}>
+            <Text
+              style={{
+                fontSize: 18,
+                color: '#888',
+                fontWeight: '500',
+                paddingRight: 10,
+              }}>
+              BUY COURSE
+            </Text>
+            <IconIonicons
+              name="ios-arrow-dropright-circle"
+              size={35}
+              color="#1dab7d"
+            />
+          </View>
+        ) : !rowData.studentCourse.isUnlocked ? (
           <View
             style={{
               flexDirection: 'row',
@@ -105,17 +170,31 @@ class StudentDashboardListLandscape extends Component {
             />
           </View>
         ) : (
-          <View style={{flexDirection: 'row', alignItems: 'center', flex: 1}}>
-            <Text style={{fontSize: 18, color: '#888', fontWeight: '200'}}>
+          <View
+            style={{
+              flexDirection: 'row',
+              alignItems: 'center',
+              flex: 1,
+            }}>
+            <Text
+              style={{
+                fontSize: 18,
+                color: '#888',
+                fontWeight: '200',
+              }}>
               Completed:
               <Text style={{color: '#1d88ab'}}>
-                {' '}
-                {rowData.studentCourse.completedModules}{' '}
-                <Text style={{color: '#888'}}>/</Text>{' '}
-                {rowData.studentCourse.totalModules}{' '}
-              </Text>{' '}
+                {rowData.studentCourse.completedModules}
+                <Text style={{color: '#888'}}>/</Text>
+                {rowData.studentCourse.totalModules}
+              </Text>
             </Text>
-            <View style={{alignItems: 'flex-end', flex: 1, overflow: 'hidden'}}>
+            <View
+              style={{
+                alignItems: 'flex-end',
+                flex: 1,
+                overflow: 'hidden',
+              }}>
               <Progress.Bar
                 progress={this.getProgress(rowData)}
                 borderWidth={1}
@@ -145,8 +224,9 @@ class StudentDashboardListLandscape extends Component {
   render() {
     return (
       <List
-        key={this.props.updateKey}
+        key={'this.props.updateKey'}
         dataArray={this.props.source}
+        // keyExtractor={(item, index) => item.name}
         renderRow={data => (
           <TouchableView
             onPress={() => this.openListItem(data)}
@@ -182,7 +262,5 @@ class StudentDashboardListLandscape extends Component {
     );
   }
 }
-
-const styles = StyleSheet.create({});
 
 export default StudentDashboardListLandscape = StudentDashboardListLandscape;
