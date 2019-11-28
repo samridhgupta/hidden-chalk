@@ -83,6 +83,7 @@ class CourseWorkVideo extends Component {
           volume={this.state.volume}
           muted={this.state.muted}
           repeat={this.state.repeat}
+          fullscreen={this.state.fullscreenStatus}
           onLoad={data =>
             this.setState({
               duration: data.duration,
@@ -183,7 +184,7 @@ class CourseWorkVideo extends Component {
   }
 
   onFullScreen() {
-    this.player.presentFullscreenPlayer();
+    // this.setState({fullscreenStatus: true});
   }
 
   render() {
