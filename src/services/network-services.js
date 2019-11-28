@@ -4,7 +4,6 @@ import AwsCognito from 'react-native-aws-cognito';
 import ReachablityService from '../services/reachability-service';
 
 const apiUrl = 'https://ivwdxixrr9.execute-api.us-east-1.amazonaws.com/dev3';
-
 const apiUrl2 = 'https://ivwdxixrr9.execute-api.us-east-1.amazonaws.com/dev4';
 
 class NetworkService {
@@ -47,12 +46,13 @@ class NetworkService {
     return this.callApi(apiUrl, endpoint);
   }
 
-  postAddUserToCourse(userEmail, courseId) {
+  postAddUserToCourse(userEmail, courseId, receiptData) {
     const endpoint = '/users';
     const body = JSON.stringify({
       courses: [courseId],
       emails: [userEmail],
       requestOwner: 'android-app',
+      receiptData,
     });
     return this.callApi(apiUrl2, endpoint, body);
   }
