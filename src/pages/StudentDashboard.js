@@ -678,13 +678,6 @@ class StudentDashboard extends Component {
                 <IconIonicons name="md-download" size={15} color="#1d88ab" />
               )}
             />
-
-            {/* <Progress.Circle
-              size={35}
-              thickness={2}
-              showsText
-              color={'#1d88ab'}
-            /> */}
           </View>
         );
         break;
