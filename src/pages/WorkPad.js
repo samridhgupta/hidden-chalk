@@ -52,20 +52,20 @@ class WorkPad extends Component {
     this.workfilePath = `${sketchSaveDir}/${workfileName}`;
     this.state = {
       toolSelected: sketchConstants.toolType.pen.id,
-            localSourceImagePath: "",
+      localSourceImagePath: '',
       queHeight: 30,
       isCollapsed: true,
-            localSourceImagePath: this.workfilePath
+      localSourceImagePath: this.workfilePath,
     };
   }
 
   static navigationOptions = {
-        title: "Work Pad",
-        headerBackTitle: null,
-        headerStyle: {
-            backgroundColor: "#ffffff"
+    title: 'Work Pad',
+    headerBackTitle: null,
+    headerStyle: {
+      backgroundColor: '#ffffff',
     },
-        headerTintColor: "#000"
+    headerTintColor: '#000',
   };
 
   componentWillMount() {
@@ -200,7 +200,12 @@ class WorkPad extends Component {
     if (this.queContent != '--') {
       let {title, questionDescription, question, options} = this.queContent;
       let hasMediaUri = this.hasMediaUris(this.queContent);
-
+      const animatedStyle = {height: this.AnimatedValue};
+      const titleTextFontStyle = {
+        color: 'black',
+        fontSize: 15,
+        fontWeight: '400',
+      };
       let replaceMediaIfNeeded = text => {
         return hasMediaUri
           ? this.replaceMediaUris(text, this.queContent.mediaUris)
@@ -212,33 +217,6 @@ class WorkPad extends Component {
       question = katex.render(replaceMediaIfNeeded(question));
 
       return (
-        <View>
-          <CourseWorkViewWithTitle title={''} content={questionDescription} />
-          <CourseWorkViewWithTitle content={question} />
-        </View>
-      );
-    } else {
-      return <View></View>;
-    }
-  }
-
-  render() {
-    const animatedStyle = {height: this.AnimatedValue};
-    const titleTextFontStyle = {
-      color: 'black',
-      fontSize: 15,
-      fontWeight: '400',
-    };
-
-    return (
-      <View
-        style={{
-          flex: 1,
-          flexDirection: 'column',
-          zIndex: 1,
-          alignItems: 'stretch',
-          backgroundColor: 'white',
-        }}>
         <View
           style={{
             top: 0,
@@ -268,6 +246,7 @@ class WorkPad extends Component {
                 justifyContent: 'center',
                 alignItems: 'center',
                 flexDirection: 'row',
+                width: '100%',
               }}>
               <Text style={[{paddingLeft: 10, flex: 1}, titleTextFontStyle]}>
                 Question
@@ -283,8 +262,8 @@ class WorkPad extends Component {
                 }}
                 name={
                   this.state.isCollapsed
-                    ? 'ios-arrow-dropright-outline'
-                    : 'ios-arrow-dropdown-outline'
+                    ? 'ios-arrow-dropdown'
+                    : 'ios-arrow-dropup'
                 }
                 color="#0086ad"
               />
@@ -292,9 +271,32 @@ class WorkPad extends Component {
           </TouchableHighlight>
 
           <Animated.View style={[{height: 0}, animatedStyle]}>
-            <ScrollView>{this.showContent()}</ScrollView>
+            <ScrollView>
+              <CourseWorkViewWithTitle
+                title={''}
+                content={questionDescription}
+              />
+              <CourseWorkViewWithTitle content={question} />
+            </ScrollView>
           </Animated.View>
         </View>
+      );
+    } else {
+      return <View></View>;
+    }
+  }
+
+  render() {
+    return (
+      <View
+        style={{
+          flex: 1,
+          flexDirection: 'column',
+          zIndex: 1,
+          alignItems: 'stretch',
+          backgroundColor: 'white',
+        }}>
+        {this.showContent()}
 
         <Sketch
           style={{
