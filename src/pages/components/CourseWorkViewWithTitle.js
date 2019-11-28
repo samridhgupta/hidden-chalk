@@ -4,7 +4,6 @@ import {
   StyleSheet,
   Text,
   View,
-  WebView,
   Linking,
   Dimensions,
   Platform,
@@ -67,7 +66,7 @@ class CourseWorkViewWithTitle extends Component {
           <View style={contentStyle}>
             <AutoHeightWebView
               ref={ref => (this.webview = ref)}
-              // scrollEnabled={false}
+              scrollEnabled={false}
               style={{
                 width: Dimensions.get('window').width - 50,
               }}

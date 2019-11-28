@@ -1,16 +1,10 @@
 import React, {Component} from 'react';
 
-import {
-  StyleSheet,
-  Text,
-  View,
-  Dimensions,
-  WebView,
-  Platform,
-} from 'react-native';
+import {StyleSheet, Text, View, Dimensions, Platform} from 'react-native';
 import Video from 'react-native-video';
 import MediaControls from 'react-native-media-controls';
 import ReachabilityService from '../../services/reachability-service';
+import WebView from 'react-native-webview';
 
 const window = Dimensions.get('window');
 var PLAYER_STATE = {PLAYING: 0, PAUSED: 1, ENDED: 2};

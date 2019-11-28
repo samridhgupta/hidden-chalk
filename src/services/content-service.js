@@ -142,6 +142,7 @@ class ContentService {
         isNew: true,
         startModuleId: course.modules.L[0].M.id.S,
         imageUri: course.imageUri.S,
+        isFree: course.isFree,
       };
     });
   }

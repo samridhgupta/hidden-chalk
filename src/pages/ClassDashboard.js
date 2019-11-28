@@ -443,47 +443,29 @@ class ClassDashboard extends Component {
               alignItems: 'center',
             }}>
             <View>
-              {this.shouldShowCourseProgress(course) ? (
-                <Progress.Circle
-                  progress={this.getCourseCompletionProgress(course)}
-                  formatText={progress => (
-                    <Text
-                      style={{
-                        fontSize: 15,
-                        color: this.getColorFromProgress(
-                          this.getCourseCompletionProgress(course),
-                        ),
-                      }}>
-                      {(this.getCourseCompletionProgress(course) * 100).toFixed(
-                        0,
-                      ) + '%'}
-                    </Text>
-                  )}
-                  thickness={2}
-                  size={50}
-                  borderWidth={1}
-                  showsText={true}
-                  color={this.getColorFromProgress(
-                    this.getCourseCompletionProgress(course),
-                  )}
-                />
-              ) : (
-                <Progress.Circle
-                  progress={0}
-                  formatText={progress => (
-                    <IconIonicons
-                      name="ios-unlock-outline"
-                      size={30}
-                      color="#1d88ab"
-                    />
-                  )}
-                  size={50}
-                  borderWidth={1}
-                  thickness={2}
-                  showsText={true}
-                  color={'#1d88ab'}
-                />
-              )}
+              <Progress.Circle
+                thickness={2}
+                size={50}
+                borderWidth={1}
+                progress={this.getCourseCompletionProgress(course)}
+                color={this.getColorFromProgress(
+                  this.getCourseCompletionProgress(course),
+                )}
+                showsText
+                formatText={progress => (
+                  <Text
+                    style={{
+                      fontSize: 15,
+                      color: this.getColorFromProgress(
+                        this.getCourseCompletionProgress(course),
+                      ),
+                    }}>
+                    {(this.getCourseCompletionProgress(course) * 100).toFixed(
+                      0,
+                    ) + '%'}
+                  </Text>
+                )}
+              />
             </View>
             <View
               style={{

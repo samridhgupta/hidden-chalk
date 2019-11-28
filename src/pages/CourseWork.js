@@ -7,7 +7,6 @@ import {
     Image,
     ListView,
     TouchableWithoutFeedback,
-    WebView,
     Alert,
     DeviceEventEmitter,
     InteractionManager,
@@ -755,6 +754,7 @@ class CourseWork extends Component {
     showCourseComplete() {
         let title = `Congratulations`;
         let message = `You have completed ${this.state.course.name} course`;
+        
         soundService.playSound(soundKeyConstants.COURSE_COMPLETE_SOUND);
         Alert.alert(
           title,
@@ -1064,7 +1064,7 @@ class CourseWork extends Component {
         this.trackSelectedOption();
         const selectedOption = this.getSelectedOption();
         const correctAnswer = this.getCorrectAnswer();
-        // soundService.playSound( selectedOption.id ==correctAnswer.id ? soundKeyConstants.SUBMIT_ANSWER_CORRECT_SOUND : soundKeyConstants.SUBMIT_ANSWER_INCORRECT_SOUND)
+        soundService.playSound( selectedOption.id ==correctAnswer.id ? soundKeyConstants.SUBMIT_ANSWER_CORRECT_SOUND : soundKeyConstants.SUBMIT_ANSWER_INCORRECT_SOUND)
         this.setState({ 
             answerSubmittedFlag: true,
             correctAnswer: this.getCorrectAnswer()

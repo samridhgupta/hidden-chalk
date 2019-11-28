@@ -158,73 +158,78 @@ class StudentDashboard extends Component {
 
   fetchInAppPurchases = () => {};
 
-  async componentDidMount() {
-    // try {
-    //     const result = await RNIap.initConnection();
-    //     console.log("result", result);
-    // } catch (err) {
-    //     console.warn(err.code, err.message);
-    // }
-    // const products = await RNIap.getProducts(iapItemList);
-    // console.log("Products :::", products);
-    // purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(purchase => {
-    //     console.log("purchaseUpdatedListener", purchase);
-    //     this.setState(
-    //         {
-    //             receipt: purchase.transactionReceipt
-    //         },
-    //         () => this.goNext()
-    //     );
-    // });
-    // purchaseErrorSubscription = RNIap.purchaseErrorListener(error => {
-    //     console.log("purchaseErrorListener", error);
-    //     Alert.alert("purchase error", JSON.stringify(error));
-    // });
+  componentDidMount() {
+    console.log('Helelo');
+    this.initIAP();
   }
+
+  initIAP = () => {
+    try {
+      RNIap.initConnection().then(result => {
+        RNIap.clearTransactionIOS();
+        console.log('result', result);
+        this.initIAPListeners();
+      });
+    } catch (err) {
+      console.warn('err.code', err.message);
+    }
+  };
+  initIAPListeners = () => {
+    purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(purchase => {
+      console.log('purchaseUpdatedListener', purchase);
+      const receipt = purchase.transactionReceipt;
+      if (receipt) {
+        const {userDetails} = this.state;
+        console.log('Inisde L::::', userDetails);
+        networkServices
+          .postAddUserToCourse(userDetails.email, course.id, receipt)
+          .then(res => res.json())
+          .then(res => {
+            console.log('Inisde L::::RES', res);
+            if (res.status === '200') {
+              if (Platform.OS === 'ios') {
+                RNIap.finishTransactionIOS(purchase.transactionId);
+              } else if (Platform.OS === 'android') {
+                // If consumable (can be purchased again)
+                RNIap.consumePurchaseAndroid(purchase.purchaseToken);
+                // If not consumable
+                RNIap.acknowledgePurchaseAndroid(purchase.purchaseToken);
+              }
+            } else {
+              // Retry / conclude the purchase is fraudulent, etc...
+              console.log('Purchase error:: error adding user to the db');
+            }
+          });
+        purchaseErrorSubscription = RNIap.purchaseErrorListener(error => {
+          console.log('purchaseErrorListener', error);
+          Alert.alert('purchase error', JSON.stringify(error));
+        });
+      }
+    });
+  };
+
+  handlePayment = () => {
+    RNIap.getProducts(iapItemList).then(availableProduct => {
+      console.log('Available products ::::', availableProduct);
+      if (availableProduct.length > 0) {
+        RNIap.requestPurchase(availableProduct[0]);
+      }
+    });
+  };
 
   componentWillUnmount() {
-    purchaseUpdateSubscription = null;
-    purchaseErrorSubscription = null;
+    if (this.purchaseUpdateSubscription) {
+      this.purchaseUpdateSubscription.remove();
+    }
+    if (this.purchaseErrorSubscription) {
+      this.purchaseErrorSubscription.remove();
+    }
   }
-
-  requestPurchase = async sku => {
-    // try {
-    //     RNIap.requestPurchase(sku, false);
-    // } catch (err) {
-    //     console.warn(err.code, err.message);
-    // }
-  };
-
-  initPaymentRequest = course => {
-    const {userDetails} = this.state;
-    paymentRequest
-      .show()
-      .then(paymentResponse => paymentResponse)
-      .then(() => {
-        this.setState({loadingData: true});
-      })
-      .then(() =>
-        networkServices.postAddUserToCourse(userDetails.email, course.id),
-      )
-      .then((res, err) => {
-        if (err) {
-          Alert.alert('Error', 'Issue updating');
-          return;
-        }
-        this.refreshData();
-      })
-      .finally(() => {
-        this.setState({
-          loadingData: false,
-        });
-      })
-      .catch(e => paymentRequest.abort());
-  };
 
   processPayment = paymentResponse => {
     console.log('Payment Received :::', paymentResponse);
     //show Loading
-    this.requestPurchase(iapItemList[0]);
+    this.handlePayment();
 
     //api call to add name to the Hc table
 
@@ -379,7 +384,7 @@ class StudentDashboard extends Component {
 
   resetAndShowHome = StackActions.reset({
     index: 0,
-    actions: [NavigationActions.navigate({routeName: 'Home'})],
+    actions: [NavigationActions.navigate({routeName: 'Auth'})],
   });
 
   logoutAndNavigatetoHome(navOption) {
@@ -450,11 +455,15 @@ class StudentDashboard extends Component {
   }
 
   onListItemPress(course) {
+    if (!course.isFree) {
+      this.handlePayment();
+      return;
+    }
+    this.closeCourseCard();
     Analytics.logEvent(AnalyticsConstants.events.COURSE_CLICK.name, {
       course_name: course.name,
       course_id: course.id,
     });
-
     this.navigateToClassDashboard(course);
   }
 
@@ -659,23 +668,23 @@ class StudentDashboard extends Component {
         downloadView = () => (
           <View>
             <Progress.Circle
+              thickness={2}
+              size={35}
+              borderWidth={1}
+              progress={1}
+              color={'#1d88ab'}
+              showsText
+              formatText={progress => (
+                <IconIonicons name="md-download" size={15} color="#1d88ab" />
+              )}
+            />
+
+            {/* <Progress.Circle
               size={35}
               thickness={2}
-              showsText={true}
+              showsText
               color={'#1d88ab'}
-            />
-            <IconIonicons
-              style={{
-                position: 'absolute',
-                justifyContent: 'center',
-                paddingHorizontal: 14,
-                paddingVertical: 10,
-                backgroundColor: 'transparent',
-              }}
-              name="md-download"
-              size={20}
-              color="#1d88ab"
-            />
+            /> */}
           </View>
         );
         break;
@@ -719,6 +728,7 @@ class StudentDashboard extends Component {
   };
 
   closeCourseCard = () => {
+    console.log('Close pressed');
     this.setState({selectedCourse: null, showDetailView: false});
   };
   showCourseList() {
