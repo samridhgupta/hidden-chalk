@@ -65,6 +65,9 @@ target 'HiddenChalk' do
   pod 'RNIap', :path => '../node_modules/react-native-iap'
 
 
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
   target 'HiddenChalkTests' do
     inherit! :search_paths
     # Pods for testing

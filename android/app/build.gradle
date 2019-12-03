@@ -190,6 +190,7 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-image-picker')
     implementation project(':react-native-iap')
     implementation project(':react-native-aws-s3')
     implementation "commons-logging:commons-logging-api:1.1"

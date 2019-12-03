@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.imagepicker.ImagePickerPackage;
 import com.dooboolab.RNIap.RNIapPackage;
 import com.aws.reactnatives3.RNAwsS3Package;
 import com.aws.reactnativecognito.RNAwsSdkPackage;

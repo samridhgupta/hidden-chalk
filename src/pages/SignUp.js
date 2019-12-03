@@ -274,27 +274,24 @@ class SignUp extends Component {
     }
 
     openImagePicker() {
-        ImagePicker.showImagePicker(imagePickerOptions, (response) => {
-            console.log('Response = ', response);
+        ImagePicker.showImagePicker(imagePickerOptions, response => {
+          console.log('Response = ', response);
 
-            if (response.didCancel) {
-                console.log('User cancelled image picker');
-            }
-            else if (response.error) {
-                console.log('ImagePicker Error: ', response.error);
-            }
-            else if (response.customButton) {
-                console.log('User tapped custom button: ', response.customButton);
-            }
-            else {
-                this.setState({
-                    profileImageSelected: true,
-                    profileImageSource: {
-                        uriSource: { uri: response.uri },
-                        path: response.path
-                    }
-                });
-            }
+          if (response.didCancel) {
+            console.log('User cancelled image picker');
+          } else if (response.error) {
+            console.log('ImagePicker Error: ', response.error);
+          } else if (response.customButton) {
+            console.log('User tapped custom button: ', response.customButton);
+          } else {
+            this.setState({
+              profileImageSelected: true,
+              profileImageSource: {
+                uriSource: {uri: response.uri},
+                path: response.path,
+              },
+            });
+          }
         });
     }
 
