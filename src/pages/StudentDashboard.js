@@ -166,7 +166,7 @@ class StudentDashboard extends Component {
   initIAP = () => {
     try {
       RNIap.initConnection().then(result => {
-        RNIap.clearTransactionIOS();
+        RNIap.consumeAllItemsAndroid();
         console.log('result', result);
         this.initIAPListeners();
       });
@@ -177,42 +177,93 @@ class StudentDashboard extends Component {
   initIAPListeners = () => {
     purchaseUpdateSubscription = RNIap.purchaseUpdatedListener(purchase => {
       console.log('purchaseUpdatedListener', purchase);
-      const receipt = purchase.transactionReceipt;
-      if (receipt) {
-        const {userDetails} = this.state;
-        console.log('Inisde L::::', userDetails);
-        networkServices
-          .postAddUserToCourse(userDetails.email, course.id, receipt)
-          .then(res => res.json())
-          .then(res => {
-            console.log('Inisde L::::RES', res);
-            if (res.status === '200') {
-              if (Platform.OS === 'ios') {
-                RNIap.finishTransactionIOS(purchase.transactionId);
-              } else if (Platform.OS === 'android') {
-                // If consumable (can be purchased again)
-                RNIap.consumePurchaseAndroid(purchase.purchaseToken);
-                // If not consumable
-                RNIap.acknowledgePurchaseAndroid(purchase.purchaseToken);
-              }
-            } else {
-              // Retry / conclude the purchase is fraudulent, etc...
-              console.log('Purchase error:: error adding user to the db');
-            }
-          });
-        purchaseErrorSubscription = RNIap.purchaseErrorListener(error => {
-          console.log('purchaseErrorListener', error);
-          Alert.alert('purchase error', JSON.stringify(error));
-        });
-      }
+      this.makePurchaseAndUpdateDB(purchase);
+    });
+    purchaseErrorSubscription = RNIap.purchaseErrorListener(error => {
+      console.log('purchaseErrorListener', error);
+      Alert.alert('purchase error', JSON.stringify(error));
     });
   };
 
-  handlePayment = () => {
+  updateDB = (receiptData, courseId = 'uVJk4HanQ0KSHJ2AXfcL9w') => {
+    const {userDetails} = this.state;
+    console.log(
+      'Inside Update DB :::',
+      userDetails.email,
+      receiptData,
+      courseId,
+    );
+    return fetch(
+      'https://ivwdxixrr9.execute-api.us-east-1.amazonaws.com/dev4/users',
+      {
+        method: 'POST',
+        headers: {
+          Accept: [
+            'application/json',
+            'Origin',
+            'X-Requested-With',
+            'Content-Type',
+            'Accept',
+            'Authorization',
+            'X-Amz-Date',
+            'X-Api-Key',
+            'X-Amz-Security-Token',
+          ],
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          courses: [courseId],
+          emails: [userDetails.email],
+          requestOwner: 'android-app',
+          receiptData: JSON.stringify(receiptData),
+        }),
+      },
+    );
+  };
+
+  makePurchaseAndUpdateDB = purchase => {
+    const receipt = purchase.transactionReceipt;
+    if (receipt) {
+      this.updateDB(purchase)
+        .then(res => res.json())
+        .then(res => {
+          console.log('Done -----------------------------------------');
+          Snackbar.show({
+            title: 'Refreshing Courses',
+            duration: Snackbar.LENGTH_LONG,
+            backgroundColor: '#2195f3',
+            action: {
+              title: 'DISMISS',
+              onPress: () => {
+                console.log('Dismiss Pressed');
+              },
+              color: 'white',
+            },
+          });
+          console.log('Run Refress');
+          this.refreshData();
+          if (Platform.OS === 'ios') {
+            RNIap.finishTransactionIOS(purchase.transactionId);
+          } else if (Platform.OS === 'android') {
+            // If consumable (can be purchased again)
+            RNIap.consumePurchaseAndroid(purchase.purchaseToken);
+            // If not consumable
+            RNIap.acknowledgePurchaseAndroid(purchase.purchaseToken);
+          }
+          console.log('Done Inside Update DB :::', res);
+        });
+    }
+  };
+
+  handlePayment = async () => {
     RNIap.getProducts(iapItemList).then(availableProduct => {
       console.log('Available products ::::', availableProduct);
       if (availableProduct.length > 0) {
-        RNIap.requestPurchase(availableProduct[0]);
+        try {
+          RNIap.requestPurchase(availableProduct[0].productId, false);
+        } catch (err) {
+          console.warn(err.code, err.message);
+        }
       }
     });
   };
@@ -638,6 +689,9 @@ class StudentDashboard extends Component {
   }
 
   renderDownloadButton(course) {
+    if (!course.isFree) {
+      return this.renderPriceTag();
+    }
     const downloadStatus = this.courseDownloadStatus(course.id);
     let onPress = () => {};
     let downloadView = () => {};
@@ -668,15 +722,22 @@ class StudentDashboard extends Component {
         downloadView = () => (
           <View>
             <Progress.Circle
-              thickness={2}
               size={35}
-              borderWidth={1}
-              progress={1}
+              thickness={2}
+              showsText={true}
               color={'#1d88ab'}
-              showsText
-              formatText={progress => (
-                <IconIonicons name="md-download" size={15} color="#1d88ab" />
-              )}
+            />
+            <IconIonicons
+              style={{
+                position: 'absolute',
+                justifyContent: 'center',
+                paddingHorizontal: 14,
+                paddingVertical: 10,
+                backgroundColor: 'transparent',
+              }}
+              name="md-download"
+              size={20}
+              color="#1d88ab"
             />
           </View>
         );
